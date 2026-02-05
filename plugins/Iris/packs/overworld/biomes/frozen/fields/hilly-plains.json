@@ -10,45 +10,27 @@
             "foliageColor": "#194569",
             "id": "winter_mountain_forest1",
             "grassColor": "#FFFAFA"
-
         },
-         {
+        {
             "category": "taiga",
             "foliageColor": "#5F84A2",
             "id": "winter_mountain_forest2",
             "grassColor": "#FFFAFA"
-
         },
-         {
+        {
             "category": "taiga",
             "foliageColor": "#91AEC4",
             "id": "winter_mountain_forest3",
             "grassColor": "#FFFAFA"
-
         }
     ],
-    "jigsawStructures": [
-        {
-            "structure": "pillager-outpost",
-            "rarity": 800
-        },
-         {
-            "structure": "village-snowy",
-            "rarity": 800
-        },
-        {
-            "structure": "igloo",
-            "rarity": 800
-        }
-    ],
+    "jigsawStructures": [],
     "generators": [
-         {
+        {
             "generator": "prototype/rivers",
             "max": 10,
             "min": -5
         }
-
-
     ],
     "wall": {
         "palette": [
@@ -71,7 +53,11 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3.3
             },
-            "palette": [{"block": "minecraft:snow_block"}]
+            "palette": [
+                {
+                    "block": "minecraft:snow_block"
+                }
+            ]
         },
         {
             "minHeight": 3,
@@ -80,7 +66,11 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:dirt"}]
+            "palette": [
+                {
+                    "block": "minecraft:dirt"
+                }
+            ]
         },
         {
             "minHeight": 3,
@@ -89,11 +79,18 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:dirt"}, {"block": "minecraft:stone"}]
+            "palette": [
+                {
+                    "block": "minecraft:dirt"
+                },
+                {
+                    "block": "minecraft:stone"
+                }
+            ]
         }
     ],
     "objects": [
-         {
+        {
             "mode": "PAINT",
             "chance": 0.01,
             "place": [
@@ -108,27 +105,6 @@
                 "clutter/icecluster9",
                 "clutter/icecluster10",
                 "clutter/icecluster11"
-
-            ]
-        },
-        {
-            "mode": "PAINT",
-            "rotation":{
-                "zAxis":{
-                    "max": 360,
-                    "min": 0,
-                    "interval": 90,
-                    "enabled": true
-                },
-
-                "enabled": true
-            },
-            "chance": 0.05,
-            "place": [
-                "structures/landstone1",
-                "structures/landstone2",
-                "structures/landstone3",
-                "structures/landstone4"
             ]
         },
         {
