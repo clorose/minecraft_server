@@ -107,30 +107,6 @@
             ]
         },
         {
-            "chance": 2.0E-7,
-            "mode": "PAINT",
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "void/void",
-                "void/void",
-                "void/void",
-                "trees/mixed/smoakog80"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -5,
-                "z": 0
-            }
-        },
-        {
             "place": [
                 "trees/oak/generic1",
                 "trees/oak/generic2",
