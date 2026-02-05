@@ -324,9 +324,6 @@
     ],
     "preventLeafDecay": true,
     "useMantle": true,
-    "stronghold": "",
-    "strongholdJumpDistance": 0,
-    "maxStrongholds": 0,
     "decorate": true,
     "loot": {
         "mode": "FALLBACK",
