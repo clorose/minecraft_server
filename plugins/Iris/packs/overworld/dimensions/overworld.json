@@ -21,7 +21,12 @@
         "axialFracturing": true,
         "zoom": 6
     },
-    "jigsawStructures": [],
+    "jigsawStructures": [
+        {
+            "structure": "trail_chambers",
+            "rarity": 1600
+        }
+    ],
     "logicalHeight": 1024,
     "dimensionHeight": {
         "max": 1024,
@@ -84,76 +89,312 @@
             }
         }
     },
-        "ores": [
+    "ores": [
         {
             "threshold": 1,
-            "range": {"min": 0, "max": 0},
-            "palette": {"palette": [{"block": "minecraft:bedrock"}]},
-            "chanceStyle": {"style": "FLAT"}
+            "range": {
+                "min": 0,
+                "max": 0
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:bedrock"
+                    }
+                ]
+            },
+            "chanceStyle": {
+                "style": "FLAT"
+            }
         },
-          {
+        {
             "threshold": 0.625,
-            "range": {"min": 1, "max": 1},
-            "palette": {"palette": [{"block": "minecraft:bedrock"}]},
+            "range": {
+                "min": 1,
+                "max": 1
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:bedrock"
+                    }
+                ]
+            },
             "chanceStyle": "snippet/style/bedrock"
         },
         {
             "threshold": 0.35,
-            "range": {"min": 2, "max": 4},
-            "palette": {"palette": [{"block": "minecraft:bedrock"}]},
+            "range": {
+                "min": 2,
+                "max": 4
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:bedrock"
+                    }
+                ]
+            },
             "chanceStyle": "snippet/style/bedrock"
         },
         {
             "threshold": 1,
-            "range": {"min": 1, "max": 57},
-            "palette": {"palette": [{"block": "minecraft:deepslate"}]},
-            "chanceStyle": {"style": "FLAT"}
+            "range": {
+                "min": 1,
+                "max": 57
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:deepslate"
+                    }
+                ]
+            },
+            "chanceStyle": {
+                "style": "FLAT"
+            }
         },
         {
             "threshold": 0.874,
-            "range": {"min": 58, "max": 58},
-            "palette": {"palette": [{"block": "minecraft:deepslate"}]},
+            "range": {
+                "min": 58,
+                "max": 58
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:deepslate"
+                    }
+                ]
+            },
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.75,
-            "range": {"min": 59, "max": 59},
-            "palette": {"palette": [{"block": "minecraft:deepslate"}]},
+            "range": {
+                "min": 59,
+                "max": 59
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:deepslate"
+                    }
+                ]
+            },
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.625,
-            "range": {"min": 60, "max": 60},
-            "palette": {"palette": [{"block": "minecraft:deepslate"}]},
+            "range": {
+                "min": 60,
+                "max": 60
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:deepslate"
+                    }
+                ]
+            },
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.5,
-            "range": {"min": 61, "max": 61},
-            "palette": {"palette": [{"block": "minecraft:deepslate"}]},
+            "range": {
+                "min": 61,
+                "max": 61
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:deepslate"
+                    }
+                ]
+            },
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.375,
-            "range": {"min": 62, "max": 62},
-            "palette": {"palette": [{"block": "minecraft:deepslate"}]},
+            "range": {
+                "min": 62,
+                "max": 62
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:deepslate"
+                    }
+                ]
+            },
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.25,
-            "range": {"min": 63, "max": 63},
-            "palette": {"palette": [{"block": "minecraft:deepslate"}]},
+            "range": {
+                "min": 63,
+                "max": 63
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:deepslate"
+                    }
+                ]
+            },
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.125,
-            "range": {"min": 64, "max": 64},
-            "palette": {"palette": [{"block": "minecraft:deepslate"}]},
+            "range": {
+                "min": 64,
+                "max": 64
+            },
+            "palette": {
+                "palette": [
+                    {
+                        "block": "minecraft:deepslate"
+                    }
+                ]
+            },
             "chanceStyle": "snippet/style/deepslate"
         }
     ],
     "carving": {
-        "caves": []
+        "caves": [
+            {
+                "breakSurface": true,
+                "cave": "cavesv4/dark-depths/tubes",
+                "rarity": 90,
+                "caveStartHeight": {
+                    "max": 30,
+                    "min": 10,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "cavesv4/azure-wastes/main",
+                "rarity": 120,
+                "caveStartHeight": {
+                    "max": 120,
+                    "min": 58,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "cavesv4/mushroom/main",
+                "rarity": 180,
+                "caveStartHeight": {
+                    "max": 100,
+                    "min": 45,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "cavesv4/crystalized-overgrown/tubes",
+                "rarity": 120,
+                "caveStartHeight": {
+                    "max": 90,
+                    "min": 42,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "cavesv4/crystalized/tubes",
+                "rarity": 120,
+                "caveStartHeight": {
+                    "max": 90,
+                    "min": 42,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "cavesv4/spider-infestation/main",
+                "rarity": 170,
+                "caveStartHeight": {
+                    "max": 250,
+                    "min": 64,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "cavesv4/mantle-core/main",
+                "rarity": 60,
+                "caveStartHeight": {
+                    "max": 20,
+                    "min": 12,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "deep/main",
+                "rarity": 60,
+                "caveStartHeight": {
+                    "max": 64,
+                    "min": 12,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "cave": "lush/main",
+                "rarity": 100,
+                "breakSurface": false,
+                "caveStartHeight": {
+                    "max": 65,
+                    "min": 30,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "deep/elongated",
+                "rarity": 40,
+                "caveStartHeight": {
+                    "max": 64,
+                    "min": 12,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": false,
+                "cave": "deepdark/big-deepdarkcave",
+                "rarity": 300,
+                "caveStartHeight": {
+                    "max": 50,
+                    "min": 12,
+                    "style": {
+                        "style": "STATIC"
+                    }
+                }
+            }
+        ]
     },
     "shoreBiomeStyle": {
         "style": "NOWHERE_CELLULAR"
@@ -221,6 +462,9 @@
     ],
     "preventLeafDecay": true,
     "useMantle": true,
+    "stronghold": "stronghold",
+    "strongholdJumpDistance": 670,
+    "maxStrongholds": 27,
     "decorate": true,
     "loot": {
         "mode": "FALLBACK",
