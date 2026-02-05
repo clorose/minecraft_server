@@ -16,28 +16,49 @@
             "min": 1
         }
     ],
-    "wall": {"palette": [
-        {"block": "minecraft:stone"},
-        {"block": "minecraft:andesite"}
-    ]},
+    "wall": {
+        "palette": [
+            {
+                "block": "minecraft:stone"
+            },
+            {
+                "block": "minecraft:andesite"
+            }
+        ]
+    },
     "layers": [
-        {"palette": [{"block": "minecraft:grass_block"}]},
+        {
+            "palette": [
+                {
+                    "block": "minecraft:grass_block"
+                }
+            ]
+        },
         {
             "minHeight": 2,
             "maxHeight": 2,
-            "palette": [{"block": "minecraft:dirt"}]
+            "palette": [
+                {
+                    "block": "minecraft:dirt"
+                }
+            ]
         },
         {
-            "style": {"style": "STATIC"},
+            "style": {
+                "style": "STATIC"
+            },
             "minHeight": 1,
             "maxHeight": 1,
             "palette": [
-                {"block": "minecraft:dirt"},
-                {"block": "minecraft:stone"}
+                {
+                    "block": "minecraft:dirt"
+                },
+                {
+                    "block": "minecraft:stone"
+                }
             ]
         }
     ],
-
     "objects": [
         {
             "place": [
@@ -48,26 +69,6 @@
                 "trees/oak/truegeneric5"
             ],
             "chance": 0.07,
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": -360,
-                    "max": 360
-                }
-            }
-        },
-        {
-            "place": [
-                "structures/landstone1",
-                "structures/landstone2",
-                "structures/landstone3",
-                "structures/landstone4",
-                "structures/landstone5"
-            ],
-            "chance": 0.02,
-            "mode": "PAINT",
             "rotation": {
                 "enabled": true,
                 "yAxis": {
@@ -100,28 +101,60 @@
                 }
             },
             "palette": [
-                {"block": "minecraft:dandelion"},
-                {"block": "minecraft:poppy"},
-                {"block": "minecraft:blue_orchid"},
-                {"block": "minecraft:allium"},
-                {"block": "minecraft:azure_bluet"},
-                {"block": "minecraft:red_tulip"},
-                {"block": "minecraft:orange_tulip"},
-                {"block": "minecraft:white_tulip"},
-                {"block": "minecraft:pink_tulip"},
-                {"block": "minecraft:oxeye_daisy"},
-                {"block": "minecraft:cornflower"},
-                {"block": "minecraft:lily_of_the_valley"}
+                {
+                    "block": "minecraft:dandelion"
+                },
+                {
+                    "block": "minecraft:poppy"
+                },
+                {
+                    "block": "minecraft:blue_orchid"
+                },
+                {
+                    "block": "minecraft:allium"
+                },
+                {
+                    "block": "minecraft:azure_bluet"
+                },
+                {
+                    "block": "minecraft:red_tulip"
+                },
+                {
+                    "block": "minecraft:orange_tulip"
+                },
+                {
+                    "block": "minecraft:white_tulip"
+                },
+                {
+                    "block": "minecraft:pink_tulip"
+                },
+                {
+                    "block": "minecraft:oxeye_daisy"
+                },
+                {
+                    "block": "minecraft:cornflower"
+                },
+                {
+                    "block": "minecraft:lily_of_the_valley"
+                }
             ]
         },
         {
             "chance": 0.01,
-            "palette": [{"block": "minecraft:tall_grass"}]
+            "palette": [
+                {
+                    "block": "minecraft:tall_grass"
+                }
+            ]
         },
         {
             "chance": 0.5,
-            "palette": [{"block": "minecraft:short_grass"}]
+            "palette": [
+                {
+                    "block": "minecraft:short_grass"
+                }
+            ]
         },
-         "snippet/decorator/bush"
+        "snippet/decorator/bush"
     ]
 }

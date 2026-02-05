@@ -4,11 +4,13 @@
     "rarity": 1,
     "derivative": "SAVANNA",
     "vanillaDerivative": "BADLANDS",
-    "generators": [{
-        "min": 5,
-        "max": 15,
-        "generator": "smooth-dunes"
-    }],
+    "generators": [
+        {
+            "min": 5,
+            "max": 15,
+            "generator": "smooth-dunes"
+        }
+    ],
     "layers": [
         {
             "minHeight": 1,
@@ -17,7 +19,11 @@
                 "minimumSlope": 2,
                 "maximumSlope": 10
             },
-            "palette": [{"block": "minecraft:terracotta"}]
+            "palette": [
+                {
+                    "block": "minecraft:terracotta"
+                }
+            ]
         },
         {
             "slopeCondition": {
@@ -54,12 +60,18 @@
         {
             "minHeight": 1,
             "maxHeight": 1,
-            "palette": [{"block": "minecraft:light_gray_terracotta"}]
+            "palette": [
+                {
+                    "block": "minecraft:light_gray_terracotta"
+                }
+            ]
         },
         {
             "minHeight": 1,
             "maxHeight": 1,
-            "style": {"style": "STATIC"},
+            "style": {
+                "style": "STATIC"
+            },
             "palette": [
                 {
                     "weight": 1,
@@ -74,22 +86,36 @@
         {
             "minHeight": 1,
             "maxHeight": 1,
-            "palette": [{"block": "minecraft:terracotta"}]
+            "palette": [
+                {
+                    "block": "minecraft:terracotta"
+                }
+            ]
         },
         {
             "minHeight": 2,
             "maxHeight": 2,
-            "palette": [{"block": "minecraft:orange_terracotta"}]
+            "palette": [
+                {
+                    "block": "minecraft:orange_terracotta"
+                }
+            ]
         },
         {
             "minHeight": 1,
             "maxHeight": 1,
-            "palette": [{"block": "minecraft:terracotta"}]
+            "palette": [
+                {
+                    "block": "minecraft:terracotta"
+                }
+            ]
         },
         {
             "minHeight": 1,
             "maxHeight": 1,
-            "style": {"style": "STATIC"},
+            "style": {
+                "style": "STATIC"
+            },
             "palette": [
                 {
                     "weight": 1,
@@ -104,12 +130,20 @@
         {
             "minHeight": 1,
             "maxHeight": 1,
-            "palette": [{"block": "minecraft:light_gray_terracotta"}]
+            "palette": [
+                {
+                    "block": "minecraft:light_gray_terracotta"
+                }
+            ]
         },
         {
             "minHeight": 1,
             "maxHeight": 1,
-            "palette": [{"block": "minecraft:terracotta"}]
+            "palette": [
+                {
+                    "block": "minecraft:terracotta"
+                }
+            ]
         }
     ],
     "objects": [
@@ -120,40 +154,25 @@
                 "trees/acacia/vexed3"
             ],
             "chance": 0.4,
-            "edit": [{
-                "find": [{"block": "minecraft:acacia_planks"}],
-                "replace": {"palette": [{
-                    "block": "minecraft:acacia_wood",
-                    "data": {"axis": "y"}
-                }]}
-            }]
-        },
-        {
-            "chance": 0.00175,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": ["clutter/camp1"]
-        },
-        {
-            "mode": "PAINT",
-            "chance": 0.005,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": ["clutter/bincluster1"]
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:acacia_planks"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:acacia_wood",
+                                "data": {
+                                    "axis": "y"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "chance": 0.07,
@@ -252,20 +271,38 @@
                 }
             },
             "palette": [
-                {"block": "minecraft:white_tulip"},
-                {"block": "minecraft:red_tulip"},
-                {"block": "minecraft:orange_tulip"},
-                {"block": "minecraft:dandelion"},
-                {"block": "minecraft:poppy"}
+                {
+                    "block": "minecraft:white_tulip"
+                },
+                {
+                    "block": "minecraft:red_tulip"
+                },
+                {
+                    "block": "minecraft:orange_tulip"
+                },
+                {
+                    "block": "minecraft:dandelion"
+                },
+                {
+                    "block": "minecraft:poppy"
+                }
             ]
         },
         {
             "chance": 0.01,
-            "palette": [{"block": "minecraft:tall_grass"}]
+            "palette": [
+                {
+                    "block": "minecraft:tall_grass"
+                }
+            ]
         },
         {
             "chance": 0.5,
-            "palette": [{"block": "minecraft:short_grass"}]
+            "palette": [
+                {
+                    "block": "minecraft:short_grass"
+                }
+            ]
         },
         "snippet/decorator/dry_grass"
     ]

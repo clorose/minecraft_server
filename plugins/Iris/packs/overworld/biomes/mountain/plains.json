@@ -116,9 +116,7 @@
                 "trees/sproak/sp4",
                 "trees/sproak/sp5",
                 "trees/sproak/sp6"
-
             ]
-
         },
         {
             "mode": "PAINT",
@@ -162,31 +160,6 @@
             "place": [
                 "structures/ruin1"
             ]
-        },
-        {
-            "mode": "PAINT",
-            "place": [
-                "structures/mlandstone1",
-                "structures/mlandstone2",
-                "structures/mlandstone3",
-                "structures/mlandstone4",
-                "structures/mlandstone5"
-            ],
-            "chance": 0.04,
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": -360,
-                    "max": 360
-                }
-            },
-            "translate": {
-                "x": 0,
-                "y": -1,
-                "z": 0
-            }
         }
     ],
     "decorators": [
@@ -292,7 +265,7 @@
                 }
             ]
         },
-         "snippet/decorator/bush"
+        "snippet/decorator/bush"
     ],
     "childStyle": {
         "style": "IRIS_DOUBLE",

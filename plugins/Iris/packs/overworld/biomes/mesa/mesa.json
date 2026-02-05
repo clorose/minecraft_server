@@ -9,12 +9,7 @@
         "ERODED_BADLANDS",
         "ERODED_BADLANDS"
     ],
-    "jigsawStructures": [
-        {
-            "structure": "village-savanna",
-            "rarity": 1200
-        }
-    ],
+    "jigsawStructures": [],
     "children": [
         "mesa/valleys",
         "mesa/dark",
