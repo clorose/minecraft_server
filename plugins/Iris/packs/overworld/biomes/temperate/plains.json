@@ -9,20 +9,7 @@
         "max": 10,
         "generator": "plain"
     }],
-    "jigsawStructures": [
-        {
-            "structure": "pillager-outpost",
-            "rarity": 800
-        },
-        {
-            "structure": "village-plains",
-            "rarity": 800
-        },
-        {
-            "structure": "ruins/ruin3",
-            "rarity": 1200
-        }
-    ],
+    "jigsawStructures": [],
     "biomeStyle": {"style": "SIMPLEX"},
     "wall": {"palette": [
         {"block": "minecraft:stone"},
@@ -56,39 +43,6 @@
     ],
 
     "objects": [
-        {
-            "mode": "PAINT",
-            "chance": 0.00975,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "clutter/camp1",
-                "clutter/camp3",
-                "clutter/camp4",
-                "clutter/camp5"
-            ]
-        },
-        {
-            "mode": "PAINT",
-            "chance": 0.00675,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": ["clutter/camp2"]
-        },
         {
             "chance": 0.002,
             "edit": [{

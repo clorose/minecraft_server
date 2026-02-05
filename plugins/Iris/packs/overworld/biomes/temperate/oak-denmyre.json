@@ -9,16 +9,7 @@
         "max": 12,
         "generator": "plain"
     }],
-     "jigsawStructures": [
-        {
-            "structure": "pillager-outpost",
-            "rarity": 800
-        },
-        {
-            "structure": "village-plains",
-            "rarity": 1200
-        }
-    ],
+    "jigsawStructures": [],
     "wall": {
         "style": {"style": "STATIC"},
         "palette": [
@@ -51,20 +42,6 @@
     ],
 
     "objects": [
-        {
-            "mode": "PAINT",
-            "chance": 0.00975,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": ["clutter/camp1"]
-        },
         {
             "chance": 0.2,
             "density": 2,
