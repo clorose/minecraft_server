@@ -114,37 +114,6 @@
             }
         },
         {
-            "chance": 0.75,
-            "edit": [{
-                "find": [{"block": "minecraft:oak_leaves"}],
-                "replace": {"palette": [{"block": "minecraft:birch_leaves"}]}
-            }],
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "trees/mixed/tredwoodsmol1",
-                "trees/mixed/tredwoodsmol2",
-                "trees/mixed/tredwoodsmol3",
-                "trees/mixed/tredwoodsmol1",
-                "trees/mixed/tredwoodsmol2",
-                "trees/mixed/tredwoodsmol3",
-                "trees/mixed/tredwoodsmol4",
-                "trees/mixed/tredwoodsmol5"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -2,
-                "z": 0
-            }
-        },
-        {
             "chance": 0.35,
             "rotation": {
                 "yAxis": {
@@ -161,29 +130,6 @@
                 "clutter/spruceclutt3",
                 "clutter/spruceclutt4",
                 "clutter/spruceclutt5"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -8,
-                "z": 0
-            }
-        },
-        {
-            "chance": 0.01,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "trees/mixed/tredwoodbee1",
-                "trees/mixed/tredwoodbee2",
-                "trees/mixed/tredwoodbee3",
-                "trees/mixed/tredwoodbee4"
             ],
             "translate": {
                 "x": 0,

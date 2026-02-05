@@ -147,48 +147,6 @@
             }
         },
         {
-            "chance": 0.35,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "edit": [{
-                "find": [
-                    {"block": "minecraft:birch_leaves"},
-                    {"block": "minecraft:spruce_leaves"}
-                ],
-                "exact": false,
-                "replace": {"palette": [
-                    {"block": "minecraft:jungle_leaves"},
-                    {"block": "minecraft:acacia_leaves"},
-                    {"block": "minecraft:oak_leaves"},
-                    {"block": "minecraft:dark_oak_leaves"}
-                ]}
-            }],
-            "place": [
-                "trees/mixed/tredwood1",
-                "trees/mixed/tredwood2",
-                "trees/mixed/tredwood3",
-                "trees/mixed/tredwood4",
-                "trees/mixed/tredwood5",
-                "trees/mixed/tredwood6",
-                "trees/mixed/tredwood7",
-                "trees/mixed/tredwood8",
-                "trees/mixed/tredwood9",
-                "trees/mixed/tredwood10"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -12,
-                "z": 0
-            }
-        },
-        {
             "chance": 0.32,
             "rotation": {
                 "yAxis": {
@@ -214,46 +172,6 @@
                 "find": [{"block": "minecraft:polished_diorite"}],
                 "replace": {"palette": [{"block": "minecraft:diorite"}]}
             }]
-        },
-        {
-            "chance": 0.45,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "edit": [{
-                "find": [
-                    {"block": "minecraft:birch_leaves"},
-                    {"block": "minecraft:spruce_leaves"}
-                ],
-                "exact": false,
-                "replace": {"palette": [
-                    {"block": "minecraft:jungle_leaves"},
-                    {"block": "minecraft:acacia_leaves"},
-                    {"block": "minecraft:oak_leaves"},
-                    {"block": "minecraft:dark_oak_leaves"}
-                ]}
-            }],
-            "place": [
-                "trees/mixed/tredwoodsmol1",
-                "trees/mixed/tredwoodsmol2",
-                "trees/mixed/tredwoodsmol3",
-                "trees/mixed/tredwoodsmol1",
-                "trees/mixed/tredwoodsmol2",
-                "trees/mixed/tredwoodsmol3",
-                "trees/mixed/tredwoodsmol4",
-                "trees/mixed/tredwoodsmol5"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -2,
-                "z": 0
-            }
         },
         {
             "chance": 0.35,
@@ -323,42 +241,6 @@
             "translate": {
                 "x": 0,
                 "y": -3,
-                "z": 0
-            }
-        },
-        {
-            "chance": 0.01,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "trees/mixed/tredwoodbee1",
-                "trees/mixed/tredwoodbee2",
-                "trees/mixed/tredwoodbee3",
-                "trees/mixed/tredwoodbee4"
-            ],
-            "edit": [{
-                "find": [
-                    {"block": "minecraft:birch_leaves"},
-                    {"block": "minecraft:spruce_leaves"}
-                ],
-                "exact": false,
-                "replace": {"palette": [
-                    {"block": "minecraft:jungle_leaves"},
-                    {"block": "minecraft:acacia_leaves"},
-                    {"block": "minecraft:oak_leaves"},
-                    {"block": "minecraft:dark_oak_leaves"}
-                ]}
-            }],
-            "translate": {
-                "x": 0,
-                "y": -8,
                 "z": 0
             }
         },
