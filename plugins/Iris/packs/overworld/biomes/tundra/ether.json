@@ -79,15 +79,6 @@
             "mode": "PAINT"
         },
         {
-            "place": [
-                "structures/woodhand1",
-                "structures/woodhand2",
-                "structures/woodhand3"
-            ],
-            "chance": 0.07,
-            "mode": "MIN_STILT"
-        },
-        {
             "chance": 0.8,
             "rotation": {
                 "yAxis": {

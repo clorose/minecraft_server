@@ -39,36 +39,6 @@
     ],
     "objects": [
         {
-            "place": [
-                "structures/landstone1",
-                "structures/landstone2",
-                "structures/landstone3",
-                "structures/landstone4",
-                "structures/landstone5"
-            ],
-            "chance": 0.86,
-            "density": 2,
-            "mode": "PAINT",
-            "underwater": true,
-            "waterloggable": true,
-            "edit": [
-                {
-                    "find": [
-                        {"block": "minecraft:grass_block"},
-                        {"block": "minecraft:dirt"}
-                    ],
-                    "replace": {"palette": [{"block": "minecraft:clay"}]}
-                },
-                {
-                    "find": [
-                        {"block": "minecraft:tall_grass"},
-                        {"block": "minecraft:short_grass"}
-                    ],
-                    "replace": {"palette": [{"block": "minecraft:seagrass"}]}
-                }
-            ]
-        },
-        {
             "place": ["clutter/ellipsoid1"],
             "chance": 0.5,
             "underwater": true,
@@ -93,72 +63,6 @@
                 }
             }]
         },
-        {
-            "place": [
-                "structures/shipgenericw",
-                "structures/shipgenericc",
-                "structures/shipgenericr",
-                "structures/shipgenericu",
-                "structures/shipgenericc",
-                "structures/BShip1",
-                "structures/BShip2",
-                "structures/BShip3",
-                "structures/BShip4",
-                "structures/BShip5",
-                "structures/BShip6",
-                "structures/kship1",
-                "structures/kship2",
-                "structures/kship3",
-                "structures/kship4"
-            ],
-            "markers": [{
-                "mark": [{"block": "minecraft:spruce_planks"}],
-                "maximumMarkers": 4,
-                "marker": "skelepirate"
-            }],
-            "chance": 0.005,
-            "onwater": true,
-            "translate": {"y": -1},
-            "waterloggable": true
-        }
     ],
-    "decorators": [
-        {
-            "chance": 0.1,
-            "palette": [{"block": "minecraft:kelp_plant"}],
-            "stackMin": 4,
-            "stackMax": 10
-        },
-        {
-            "chance": 0.05,
-            "palette": [{"block": "minecraft:seagrass"}]
-        },
-        {
-            "chance": 0.05,
-            "palette": [{
-                "block": "minecraft:tall_seagrass",
-                "data": {"half": "lower"}
-            }],
-            "topPalette": [{
-                "block": "minecraft:tall_seagrass",
-                "data": {"half": "upper"}
-            }]
-        }
-    ],
-    "carving": {
-        "ravines": [{
-            "rarity": 442,
-            "ravine": "volcanic/main"
-        }],
-        "caves": [{
-            "breakSurface": true,
-            "cave": "volcanic/main",
-            "rarity": 228,
-            "caveStartHeight": {
-                "max": 120,
-                "min": 69,
-                "style": {"style": "STATIC"}
-            }
-        }]
-    }
 }
+

@@ -34,8 +34,5 @@
             ]
         }
     ],
-    "decorators": [{
-        "chance": 0.2,
-        "palette": [{"block": "minecraft:seagrass"}]
-    }]
 }
+

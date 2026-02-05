@@ -12,12 +12,6 @@
         "waterFogColor": "#80B4C6",
         "fogColor": "#8091C6"
     }],
-    "jigsawStructures": [
-         {
-            "structure": "woodland-mansion",
-            "rarity": 1200
-        }
-    ],
     "generators": [{
         "max": 42,
         "min": 34,
@@ -70,28 +64,6 @@
                 "enabled": true
             },
             "place": ["clutter/grave1"]
-        },
-        {
-            "chance": 0.001,
-            "mode": "PAINT",
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": false
-                },
-                "enabled": true
-            },
-            "place": [
-                "structures/swordnp2",
-                "structures/swordnp1"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -1,
-                "z": 0
-            }
         },
         {
             "chance": 0.2,

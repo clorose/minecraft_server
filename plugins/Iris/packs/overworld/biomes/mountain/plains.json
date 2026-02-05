@@ -144,22 +144,6 @@
                 "clutter/sbush2",
                 "clutter/sbush3"
             ]
-        },
-        {
-            "chance": 0.0001,
-            "mode": "PAINT",
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "structures/ruin1"
-            ]
         }
     ],
     "decorators": [

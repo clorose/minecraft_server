@@ -135,42 +135,6 @@
             }
         },
         {
-            "chance": 0.02,
-            "variance": {
-                "style": "STATIC"
-            },
-            "zoom": 5,
-            "palette": [
-                {
-                    "block": "minecraft:seagrass"
-                }
-            ],
-            "style": {
-                "style": "STATIC"
-            }
-        },
-        {
-            "chance": 0.015,
-            "verticalZoom": 20,
-            "variance": {
-                "style": "STATIC"
-            },
-            "stackMax": 9,
-            "zoom": 1,
-            "palette": [
-                {
-                    "block": "minecraft:kelp_plant"
-                }
-            ],
-            "style": {
-                "style": "STATIC"
-            },
-            "heightVariance": {
-                "style": "STATIC"
-            },
-            "stackMin": 1
-        },
-        {
             "chance": 0.01,
             "variance": {
                 "style": "STATIC"

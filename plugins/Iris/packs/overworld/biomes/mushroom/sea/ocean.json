@@ -49,33 +49,6 @@
     ],
     "objects": [
         {
-            "chance": 0.1,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "underwater": true,
-            "place": [
-                "structures/swreck1",
-                "structures/usdship1",
-                "structures/usdship2"
-            ],
-            "edit": [{
-                "find": [{"block": "minecraft:oak_stairs"}],
-                "replace": {"palette": [{"block": "minecraft:oak_planks"}]}
-            }],
-            "translate": {
-                "x": 0,
-                "y": -4,
-                "z": 0
-            }
-        },
-        {
             "chance": 0.3,
             "edit": [{
                 "find": [{"block": "minecraft:shroomlight"}],
@@ -132,13 +105,6 @@
     ],
     "decorators": [
         {
-            "chance": 0.06,
-            "variance": {"style": "STATIC"},
-            "zoom": 20,
-            "palette": [{"block": "minecraft:seagrass"}],
-            "style": {"style": "STATIC"}
-        },
-        {
             "chance": 6.0E-4,
             "variance": {"style": "STATIC"},
             "zoom": 1,
@@ -147,17 +113,6 @@
                 {"block": "minecraft:magma_block"}
             ],
             "style": {"style": "STATIC"}
-        },
-        {
-            "chance": 0.1,
-            "verticalZoom": 20,
-            "variance": {"style": "STATIC"},
-            "stackMax": 9,
-            "zoom": 1,
-            "palette": [{"block": "minecraft:kelp_plant"}],
-            "style": {"style": "STATIC"},
-            "heightVariance": {"style": "STATIC"},
-            "stackMin": 1
         },
         {
             "chance": 0.005,

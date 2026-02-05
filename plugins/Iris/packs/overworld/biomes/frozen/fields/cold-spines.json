@@ -106,54 +106,6 @@
                 "clutter/sbush3"
             ]
         },
-        {
-            "place": [
-                "trees/spruce/lfrostgeneric1",
-                "trees/spruce/lfrostgeneric2",
-                "trees/spruce/lfrostgeneric3",
-                "trees/spruce/lfrostgeneric4",
-                "trees/spruce/lfrostgeneric5",
-                "trees/spruce/lfrostgeneric6",
-                "trees/spruce/lfrostgeneric7",
-                "trees/spruce/lfrostgeneric8",
-                "trees/spruce/lfrostgeneric9",
-                "trees/spruce/lfrostgeneric10",
-                "trees/spruce/lfrostgeneric11",
-                "trees/spruce/lfrostgeneric12",
-                "trees/spruce/lfrostgeneric13",
-                "trees/spruce/lfrostgeneric14",
-                "trees/spruce/lfrostgeneric15",
-                "trees/spruce/lfrostgeneric16",
-                "trees/spruce/lfrostgeneric17",
-                "trees/spruce/lfrostgeneric18",
-                "trees/spruce/lfrostgeneric19",
-                "trees/spruce/lfrostgeneric20",
-                "trees/spruce/lfrostgeneric21"
-            ],
-            "edit": [{
-                "find": [
-                    {"block": "minecraft:dark_oak_fence"},
-                    {"block": "minecraft:dark_oak_fence_gate"}
-                ],
-                "replace": {"palette": [{"block": "minecraft:spruce_leaves"}]}
-            },
-             {
-                "find": [
-                    {"block": "minecraft:spruce_leaves"}
-                ],
-                "replace": {"palette": [{"block": "minecraft:oak_leaves"}]}
-            }],
-            "chance": 0.6,
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": -360,
-                    "max": 360
-                }
-            }
-        }
     ],
     "decorators": [
         {

@@ -130,50 +130,8 @@
                 "z": 0
             }
         },
-        {
-            "chance": 0.0035,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "underwater": true,
-            "place": [
-                "structures/oruins1",
-                "structures/oruins2",
-                "structures/oruins3"
-            ],
-            "mode": "PAINT",
-            "vanillaLoot": [
-                {
-                    "name": "minecraft:chests/underwater_ruin_small"
-                }
-            ]
-        }
     ],
     "decorators": [
-        {
-            "chance": 0.07,
-            "variance": {"style": "STATIC"},
-            "zoom": 5,
-            "palette": [{"block": "minecraft:seagrass"}],
-            "style": {"style": "STATIC"}
-        },
-        {
-            "chance": 0.013,
-            "verticalZoom": 88,
-            "variance": {"style": "STATIC"},
-            "stackMax": 6,
-            "zoom": 1,
-            "palette": [{"block": "minecraft:kelp_plant"}],
-            "style": {"style": "STATIC"},
-            "heightVariance": {"style": "NOWHERE"},
-            "stackMin": 2
-        }
     ],
     "childStyle": {"style": "SIMPLEX"},
     "seaLayers": [{

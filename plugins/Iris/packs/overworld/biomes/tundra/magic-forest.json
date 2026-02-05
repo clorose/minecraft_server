@@ -8,12 +8,6 @@
         "OLD_GROWTH_PINE_TAIGA",
         "WINDSWEPT_HILLS"
     ],
-    "jigsawStructures": [
-        {
-            "structure": "pillager-outpost",
-            "rarity": 800
-        }
-    ],
     "customDerivitives": [{
         "grassColor": "#4E83CF",
         "foliageColor": "#2F99DC",

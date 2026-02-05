@@ -29,26 +29,6 @@
             ]
         }
     ],
-    "objects": [{
-        "place": [
-            "structures/landstone1",
-            "structures/landstone2",
-            "structures/landstone3",
-            "structures/landstone4",
-            "structures/landstone5"
-        ],
-        "chance": 0.02,
-        "mode": "PAINT",
-        "rotation": {
-            "enabled": true,
-            "yAxis": {
-                "enabled": true,
-                "interval": 90,
-                "min": -360,
-                "max": 360
-            }
-        }
-    }],
     "decorators": [
         {
             "chance": 0.2,

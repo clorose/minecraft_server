@@ -77,58 +77,6 @@
     "objects": [
         {
             "mode": "MIN_HEIGHT",
-            "chance": 0.3,
-            "place": [
-                "trees/mixed/AmyLarge1",
-                "trees/mixed/AmyLarge2",
-                "trees/mixed/AmyLarge3",
-                "trees/mixed/AmyLarge4",
-                "trees/mixed/AmyLarge5",
-                "trees/mixed/AmyLarge7",
-                "trees/mixed/AmyLarge8"
-            ],
-            "edit": [
-                {
-                    "find": [{"block": "minecraft:dark_oak_wood"}],
-                    "replace": {
-                        "style": {
-                            "style": "NOWHERE",
-                            "zoom": 0.2
-                        },
-                        "palette": [
-                            {
-                                "block": "minecraft:acacia_wood",
-                                "weight": 10
-                            },
-                            {"block": "minecraft:mangrove_wood"}
-                        ]
-                    }
-                },
-                {
-                    "chance": 0.25,
-                    "find": [{"block": "minecraft:oak_leaves"}],
-                    "replace": {"palette": [
-                        {
-                            "block": "minecraft:jungle_leaves",
-                            "weight": 10
-                        },
-                        {"block": "minecraft:flowering_azalea_leaves"}
-                    ]}
-                }
-            ],
-            "translate": {"yRandom": -5},
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 30,
-                    "min": 0,
-                    "max": 360
-                }
-            }
-        },
-        {
-            "mode": "MIN_HEIGHT",
             "chance": 0.6,
             "place": [
                 "trees/mixed/AmyMed1",

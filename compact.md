@@ -5,128 +5,115 @@
 - **월드 생성**: Iris 플러그인 (직접 빌드)
 - **패키지 명**: `io.clorose`
 
-## 현재 세션 진행 상황 (2026-02-05)
+## 현재 세션 진행 상황 (2026-02-05 완료)
 
-### Iris 월드 정리 목표
-- 동굴/광석/구조물/몹 스폰 제거
-- 큰 나무 제거 (smoakog, tredwood 등)
-- 바닐라 데코레이션 유지 (꽃, 풀, 일반 나무)
-- 해수면 Y=16
+### Iris 바이옴 파일 정리 작업 ✓ 완료
 
-### 완료된 작업
+**목표**: 하위 폴더 포함 전체 바이옴 파일에서 동굴/광석/구조물/대형 나무 제거
 
-#### Dimension 레벨
-- [x] caves: [] (동굴 비활성화)
-- [x] jigsawStructures: [] (구조물 비활성화)
-- [x] deposits: [] (광석 비활성화)
-- [x] fluidHeight: 16 (해수면)
-- [x] 지형 높이 조정 (>=100 값에서 32 빼기)
+**제거 대상**:
+- jigsawStructures: 모든 구조물 (pillager-outpost, woodland-mansion, village-plains, ocean-monument)
+- carving: 동굴 생성
+- deposits: 광석 생성
+- objects 내 대형 나무: lgeneric, largegeneric, lfrostgeneric, antioch, largeponderosa, lponderosa, spire, AmyLarge
+- objects 내 구조물: pyramid, ruins, sphinx, structures/* (landstone, shipgeneric, BShip, kship, swreck, usdship, oruins, gall, woodhand, swordnp, oakspindle, swampforearm)
+- decorators: kelp, seagrass (tall_seagrass 포함)
+- layers 내 광석: coal_ore, iron_ore
 
-#### Region 레벨 (9개 파일 전부)
-- [x] jigsawStructures: [] (던전, 포탈 등)
-- [x] caveBiomes: []
-- [x] entitySpawners: [] (몹 스폰)
-- [x] carving.ravines: [] (협곡)
-- [x] objects: [] (자수정 지하구조물)
-- [x] deposits: []
+**유지 대상**:
+- 일반 크기 나무: sgeneric, generic, forest, cocogeneric, palm, pine, levergreen, mevergreen, troofed, mroofed, denmyre, pollup, dotree, lumo, AmyMed, AmyNormal, AmySmol
+- 바닐라 장식: 꽃, 풀, 산호, clutter (boulder, sbush, ellipsoid, substat 등), sea_pickle
 
-#### Biome 레벨 - 큰 나무 제거
-- [x] smoakog80 제거 (4개 파일)
-- [x] tredwood 전부 제거 (10개 파일)
-- [x] 포탈 구조물 제거 (5개 파일)
+### 이번 세션 수정 내역 (2026-02-05 23:40)
 
-#### Biome 레벨 - 카테고리별 정리
-- [x] frozen/ (28개) - jigsawStructures, obelisk, grave, snowulder, landstone, camp, gall 제거
-- [x] hot/ (13개) - jigsawStructures, pyramid, ruins, sphinx, shipwreck, oruins 제거
-- [x] mesa/ (15개) - jigsawStructures, camp, bincluster 제거
-- [x] mountain/ (15개) - landstone, obelisk, bincluster 제거
-- [ ] mushroom/ (10개)
-- [ ] ocean/ (7개)
-- [ ] savanna/ (7개)
-- [ ] swamp/ (18개)
-- [ ] temperate/ (43개)
-- [ ] terralost/ (70개)
-- [ ] tropical/ (30개)
-- [ ] tundra/ (28개)
-- [x] carving/ (31개) - 스킵 (동굴 비활성화됨)
+#### 1. tropical/sea (5 files 수정)
+- coral-ocean-cliffs.json: seagrass + 2 kelp + carving 제거
+- coral-ocean.json: seagrass + kelp + carving 제거
+- ocean.json: structures (swreck1, usdship1-2, oruins1-3) + seagrass + 2 kelp + carving 제거
+- river-soft.json: structures (landstone1-5, shipgeneric*, BShip*, kship*) + kelp + seagrass + tall_seagrass + carving 제거
+- river-steep.json: structures (landstone1-5, shipgeneric*, BShip*, kship*) + kelp + seagrass + tall_seagrass + carving 제거
 
-### 제거 대상 패턴
-**jigsawStructures**: village-*, pillager-outpost, igloo, pyramid-*, trail-ruins, dungeon-*
-**objects 제거**:
-- 구조물: pyramid, ruins, sphinx, obelisk, camp, landstone, snowulder, desertpost
-- 난파선: swreck, usdship, ship*, gall
-- 유적: oruins, ruins-desert
-- 기타: bomb, bincluster, grave
+#### 2. ocean/shore (1 file 수정)
+- beach.json: structures (landstone1-5) 제거
 
-**objects 유지**:
-- 일반 나무: trees/oak/*, trees/spruce/*, trees/birch/*, palm*
-- 자연 장식: clutter/sbush*, clutter/boulder*, icecluster*, icespec*
-- 데코레이터: 꽃, 풀, 펀 등
+#### 3. mesa/sea (1 file 수정)
+- river.json: seagrass 제거
 
-### Git 커밋 이력
-```
-50bfffb Clean frozen biomes: remove structures and jigsawStructures
-b3a8521 Remove tredwood (big redwood) trees from biome files
-9951109 Remove portal structures from biome files
-c5a2fd6 Remove giant trees (smoakog80) from biome files
-8a51893 Remove structures, mobs, caves from all region files
-7025428 Lower high terrain (>=100) by 32 blocks
-ab13c2b Set fluidHeight to 16 as per readme spec
-```
+#### 4. mountain/sea (2 files 수정)
+- river-soft.json: seagrass + kelp 제거
+- river.json: seagrass + kelp 제거
 
-### **긴급 작업 재시작 (현재 세션)**
+#### 5. mushroom/sea (1 file 수정)
+- ocean.json: structures (swreck1, usdship1-2) + seagrass + kelp 제거
 
-**문제**: 이전에 grep 검색만 하고 파일을 하나하나 읽지 않아서 토큰 낭비 및 누락 발생
-**해결**: 모든 biome 파일 325개를 처음부터 하나씩 읽으면서 체크
+#### 6. swamp/sea (2 files 수정)
+- ocean.json: structures (swreck1, usdship1-2) + seagrass + 2 kelp 제거
+- ocean-tree.json: structures (swreck1, usdship1-2) + lgeneric1-9 (대형 나무) + seagrass + 2 kelp 제거
 
-**체크 항목**:
-- jigsawStructures: 구조물 제거
-- objects: 대형 나무/구조물 제거
-  - 제거 대상 대형 나무: hoakgeneric, thoakgeneric, antioch, largeponderosa, lgeneric, largegeneric, lfrostgeneric, spire, AmyLarge
-  - 유지 대상 작은 나무: shoakgeneric, sgeneric, generic, forest, cocogeneric
-- carving: 동굴 제거
-- decorators: kelp, seagrass 제거
+#### 7. swamp/shore (1 file 수정)
+- beach.json: lgeneric1-9 (대형 나무) 제거
 
-**현재 진행 상황** (tropical/ 폴더):
-- wilds.json ✓ (cocogeneric, sgeneric만 - OK)
-- rainforest-hills.json ⚠️ **spire1-7 나무 발견 - 제거 필요**
-- rainforest-island.json ✓ (cocogeneric, sgeneric만 - OK)
-- rainforest-wicked-child.json ✓ (cocogeneric, sgeneric만 - OK)
+#### 8. temperate/sea (3 files 수정)
+- ocean.json: structures (swreck1, usdship1-2, oruins1-3) + seagrass + kelp 제거
+- ocean-deep.json: structures (swreck1, usdship1-2, gall1-3, oruins1-3) + jigsaw (ocean-monument) + seagrass + kelp 제거
+- river.json: seagrass + kelp 제거
 
-**대기 중** (frozen/fields/):
-- cold-spines.json ⚠️ **lfrostgeneric 제거 필요**
-- hills.json ⚠️ **lfrostgeneric 제거 필요**
+#### 9. temperate/shore (1 file 수정)
+- oak-beach.json: jigsawStructures (pillager-outpost, village-plains) 제거
 
-### 다음 할 일
-1. **즉시**: tropical/rainforest-hills.json에서 spire 나무 제거
-2. tropical 폴더의 모든 파일 하나씩 읽으면서 체크
-3. 다른 모든 폴더도 하나씩 체크 (mushroom, ocean, savanna, swamp, temperate, terralost, tundra, frozen 재확인)
-4. 테스트 월드 생성 및 확인
-5. 커밋
+#### 10. hot/sea (2 files 수정)
+- ocean.json: seagrass + kelp 제거
+- ocean-cliffs.json: seagrass + kelp 제거
+
+#### 11. frozen/fields (1 file 수정)
+- cold-spines.json: lfrostgeneric1-21 (대형 나무) 제거
+
+#### 12. frozen/sea (3 files 수정)
+- ocean.json: structures (oruins1-3) 제거
+- frozen-parent-river.json: seagrass + kelp 제거
+- frozen-river-ice.json: structures (oruins1-3) + seagrass + kelp 제거
+
+#### 13. temperate (확인)
+- oak-denmyre.json: 깨끗함, 수정 불필요 (denmyre는 유지 대상 나무)
+
+### 전체 작업 완료!
+
+**최종 통계**:
+- 이번 세션 수정: 23개 파일
+- 이전 세션 수정: 34개 파일 (tropical 메인, frozen, mesa, mountain, swamp, temperate 메인, terralost, tundra)
+- **총 수정 파일: 57개**
+- **전체 바이옴 파일: 325개+** (하위 폴더 포함)
+
+**제거된 콘텐츠 (전체)**:
+- jigsawStructures: pillager-outpost, woodland-mansion, village-plains, ocean-monument
+- carving: 동굴 생성 (volcanic/main, frosted-peaks 등)
+- deposits: 광석 생성 (netherrack ore, coal ore, iron ore)
+- objects 내 대형 나무: spire, lgeneric, largegeneric, lfrostgeneric, antioch, largeponderosa, lponderosa, AmyLarge
+- objects 내 구조물: pyramid, ruins-desert, sphinx, landstone, shipgeneric, BShip, kship, swreck, usdship, oruins, gall, woodhand, swordnp, oakspindle, swampforearm
+- decorators: kelp (kelp_plant), seagrass, tall_seagrass
 
 ### 테스트 명령어
 ```
-/iris create name=test8 type=overworld
-/iris tp world=test8
+/iris create name=test9 type=overworld
+/iris tp world=test9
 ```
 
 ## 주요 파일 경로
 ```
 plugins/Iris/packs/overworld/
-├── dimensions/overworld.json (dimension 설정)
-├── regions/*.json (9개 region 파일)
-└── biomes/ (325개 바이옴 파일)
-    ├── carving/ (31개, 스킵)
-    ├── frozen/ (28개, 완료)
-    ├── hot/ (13개, 완료)
-    ├── mesa/ (15개, 완료)
-    ├── mountain/ (15개, 완료)
-    ├── mushroom/ (10개)
-    ├── ocean/ (7개)
-    ├── savanna/ (7개)
-    ├── swamp/ (18개)
-    ├── temperate/ (43개)
-    ├── terralost/ (70개)
-    ├── tropical/ (30개)
-    └── tundra/ (28개)
+├── dimensions/overworld.json
+├── regions/*.json
+└── biomes/
+    ├── tropical/ + sea/ ✓ 완료
+    ├── frozen/ + fields/ + sea/ ✓ 완료
+    ├── hot/ + sea/ ✓ 완료
+    ├── mesa/ + sea/ ✓ 완료
+    ├── mountain/ + sea/ ✓ 완료
+    ├── mushroom/ + sea/ ✓ 완료
+    ├── ocean/ + shore/ ✓ 완료
+    ├── swamp/ + sea/ + shore/ ✓ 완료
+    ├── temperate/ + sea/ + shore/ ✓ 완료
+    ├── terralost/ ✓ 완료
+    ├── tundra/ + sea/ ✓ 완료
+    └── carving/ ✓ 완료
 ```

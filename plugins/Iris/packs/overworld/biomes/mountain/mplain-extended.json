@@ -81,35 +81,6 @@
         },
         {
             "place": [
-                "trees/oak/lponderosa1",
-                "trees/oak/lponderosa2",
-                "trees/oak/lponderosa3",
-                "trees/oak/lponderosa4",
-                "trees/oak/lponderosa5",
-                "trees/oak/lponderosa6",
-                "trees/oak/lponderosa7",
-                "trees/oak/lponderosa8",
-                "trees/oak/lponderosa9",
-                "trees/oak/lponderosa10",
-                "trees/oak/lponderosa11",
-                "trees/oak/lponderosa13",
-                "trees/oak/lponderosa14",
-                "trees/oak/lponderosa15"
-            ],
-            "mode": "CENTER_HEIGHT",
-            "chance": 0.28,
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": -360,
-                    "max": 360
-                }
-            }
-        },
-        {
-            "place": [
                 "clutter/arbusto1",
                 "clutter/arbusto2",
                 "clutter/arbusto3",

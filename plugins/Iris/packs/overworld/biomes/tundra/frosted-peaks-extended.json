@@ -184,21 +184,5 @@
                 "block": "minecraft:air"
             }
         ]
-    },
-    "carving": {
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "rocky/tubes",
-                "rarity": 11,
-                "caveStartHeight": {
-                    "max": 180,
-                    "min": 80,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
     }
 }

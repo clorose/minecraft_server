@@ -94,70 +94,7 @@
             ]
         }
     ],
-    "objects": [
-        {
-            "edit": [
-                {
-                    "find": [
-                        {
-                            "block": "minecraft:spruce_leaves"
-                        }
-                    ],
-                    "replace": {
-                        "style": {
-                            "style": "PERLIN",
-                            "zoom": 0.2
-                        },
-                        "palette": [
-                            {
-                                "block": "minecraft:oak_leaves"
-                            },
-                            {
-                                "block": "minecraft:dark_oak_leaves"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "place": [
-                "trees/spruce/lfrostgeneric1",
-                "trees/spruce/lfrostgeneric2",
-                "trees/spruce/lfrostgeneric3",
-                "trees/spruce/lfrostgeneric4",
-                "trees/spruce/lfrostgeneric5",
-                "trees/spruce/lfrostgeneric6",
-                "trees/spruce/lfrostgeneric7",
-                "trees/spruce/lfrostgeneric8",
-                "trees/spruce/lfrostgeneric9",
-                "trees/spruce/lfrostgeneric10",
-                "trees/spruce/lfrostgeneric11",
-                "trees/spruce/lfrostgeneric12",
-                "trees/spruce/lfrostgeneric13",
-                "trees/spruce/lfrostgeneric14",
-                "trees/spruce/lfrostgeneric15",
-                "trees/spruce/lfrostgeneric16",
-                "trees/spruce/lfrostgeneric17",
-                "trees/spruce/lfrostgeneric18",
-                "trees/spruce/lfrostgeneric19",
-                "trees/spruce/lfrostgeneric20"
-            ],
-            "chance": 0.62,
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": 0,
-                    "max": 270
-                }
-            },
-            "warp": {
-                "style": "IRIS_DOUBLE",
-                "exponent": 1.2,
-                "zoom": 0.4
-            }
-        }
-    ],
+    "objects": [],
     "decorators": [
         {
             "chance": 1,

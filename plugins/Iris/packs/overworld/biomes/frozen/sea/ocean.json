@@ -124,30 +124,6 @@
                 "clutter/icespec5"
             ]
         },
-        {
-            "chance": 0.0035,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "underwater": true,
-            "place": [
-                "structures/oruins1",
-                "structures/oruins2",
-                "structures/oruins3"
-            ],
-            "mode": "PAINT",
-            "vanillaLoot": [
-                {
-                    "name": "minecraft:chests/underwater_ruin_small"
-                }
-            ]
-        }
     ],
     "seaLayers": [
         {

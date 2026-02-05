@@ -14,18 +14,6 @@
     ]},
     "objects": [{
         "place": [
-            "trees/oak/antioch1",
-            "trees/oak/antioch2",
-            "trees/oak/antioch4",
-            "trees/oak/antioch5",
-            "trees/oak/antioch6",
-            "trees/oak/antioch7",
-            "trees/oak/antioch8",
-            "trees/oak/antioch9",
-            "trees/oak/antioch10",
-            "trees/oak/antioch11",
-            "trees/oak/antioch12",
-            "trees/oak/antioch13",
             "trees/oak/troofed1",
             "trees/oak/troofed2",
             "trees/oak/troofed3",
@@ -36,8 +24,6 @@
             "trees/oak/troofed8",
             "trees/oak/troofed9",
             "trees/oak/troofed10"
-
-
             ],
         "carvingSupport": "SURFACE_ONLY",
         "chance": 0.5,

@@ -66,43 +66,6 @@
     ],
     "objects": [
         {
-            "place": [
-                "trees/jungle/lgeneric1",
-                "trees/jungle/lgeneric2",
-                "trees/jungle/lgeneric3",
-                "trees/jungle/lgeneric4",
-                "trees/jungle/lgeneric5",
-                "trees/jungle/lgeneric7",
-                "trees/jungle/lgeneric8",
-                "trees/jungle/lgeneric9"
-            ],
-            "chance": 0.8,
-            "edit": [
-                {
-                    "find": [{"block": "minecraft:jungle_leaves"}],
-                    "replace": {"palette": [{"block": "minecraft:oak_leaves"}]}
-                },
-                {
-                    "find": [{"block": "minecraft:jungle_wood"}],
-                    "replace": {"palette": [{"block": "minecraft:dark_oak_wood"}]}
-                },
-                {
-                    "find": [{"block": "minecraft:jungle_log"}],
-                    "replace": {"palette": [{"block": "minecraft:dark_oak_wood"}]}
-                }
-            ],
-            "rotation": {
-                "enabled": true,
-                "yAxis": {
-                    "enabled": true,
-                    "interval": 90,
-                    "min": -360,
-                    "max": 360
-                }
-            },
-            "translate": {"y": -3}
-        },
-        {
             "chance": 0.35,
             "density": 2,
             "rotation": {

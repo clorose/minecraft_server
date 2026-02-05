@@ -870,35 +870,6 @@
             "style": {"style": "STATIC"}
         },
         {
-            "chance": 0.07,
-            "variance": {"style": "STATIC"},
-            "zoom": 5,
-            "palette": [{"block": "minecraft:seagrass"}],
-            "style": {"style": "STATIC"}
-        },
-        {
-            "chance": 0.025,
-            "verticalZoom": 88,
-            "variance": {"style": "STATIC"},
-            "stackMax": 24,
-            "zoom": 1,
-            "palette": [{"block": "minecraft:kelp_plant"}],
-            "style": {"style": "STATIC"},
-            "heightVariance": {"style": "NOWHERE"},
-            "stackMin": 2
-        },
-        {
-            "chance": 0.225,
-            "verticalZoom": 20,
-            "variance": {"style": "STATIC"},
-            "stackMax": 9,
-            "zoom": 1,
-            "palette": [{"block": "minecraft:kelp_plant"}],
-            "style": {"style": "STATIC"},
-            "heightVariance": {"style": "STATIC"},
-            "stackMin": 1
-        },
-        {
             "chance": 0.2,
             "variance": {"style": "STATIC"},
             "zoom": 1,
@@ -978,22 +949,6 @@
             "style": {"style": "STATIC"}
         }
     ],
-    "carving": {
-        "ravines": [{
-            "rarity": 442,
-            "ravine": "volcanic/main"
-        }],
-        "caves": [{
-            "breakSurface": true,
-            "cave": "volcanic/main",
-            "rarity": 228,
-            "caveStartHeight": {
-                "max": 120,
-                "min": 69,
-                "style": {"style": "STATIC"}
-            }
-        }]
-    },
     "effects": [{
         "particleAltX": 0.3,
         "particleAltY": 1.960885,
