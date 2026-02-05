@@ -75,33 +75,6 @@
             "mode": "PAINT"
         },
         {
-            "chance": 0.00375,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": ["clutter/camp1"]
-        },
-        {
-            "mode": "FAST_STILT",
-            "chance": 0.0025,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": ["clutter/bincluster1"]
-        },
-        {
             "chance": 0.69,
             "rotation": {
                 "yAxis": {

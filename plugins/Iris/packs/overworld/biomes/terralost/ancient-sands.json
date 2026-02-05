@@ -72,20 +72,7 @@
             }]
         }
     ],
-    "jigsawStructures": [
-        {
-            "rarity": 1700,
-            "structure": "pillager-outpost"
-        },
-        {
-            "rarity": 1500,
-            "structure": "village-desert"
-        },
-        {
-            "rarity": 1900,
-            "structure": "pyramid-desert"
-        }
-    ],
+    "jigsawStructures": [],
     "objects": [
         {
             "chance": 0.0018,
