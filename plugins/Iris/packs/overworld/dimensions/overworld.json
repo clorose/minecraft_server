@@ -21,12 +21,7 @@
         "axialFracturing": true,
         "zoom": 6
     },
-    "jigsawStructures": [
-        {
-            "structure": "trail_chambers",
-            "rarity": 1600
-        }
-    ],
+    "jigsawStructures": [],
     "logicalHeight": 1024,
     "dimensionHeight": {
         "max": 1024,
@@ -329,9 +324,9 @@
     ],
     "preventLeafDecay": true,
     "useMantle": true,
-    "stronghold": "stronghold",
-    "strongholdJumpDistance": 670,
-    "maxStrongholds": 27,
+    "stronghold": "",
+    "strongholdJumpDistance": 0,
+    "maxStrongholds": 0,
     "decorate": true,
     "loot": {
         "mode": "FALLBACK",
