@@ -9,63 +9,9 @@
         "mushroom/plains",
         "mushroom/warped-forest"
     ],
-    "caveBiomes": [
-        "carving/rocky-cavebiome"
-    ],
-    "objects": [
-        {
-            "heightmap": {
-                "seed": 1337,
-                "style": {
-                    "style": "SIMPLEX",
-                    "multiplier": 10
-                },
-                "offsetY": 5
-            },
-            "chance": 0.05,
-            "bottom": true,
-            "density": 1,
-            "place": [
-                "structures/amethyst1",
-                "structures/amethyst2",
-                "structures/amethyst3",
-                "structures/amethyst4",
-                "structures/amethyst5",
-                "structures/amethyst6"
-            ],
-            "edit": [
-                {
-                    "find": [
-                        {
-                            "block": "minecraft:glass"
-                        }
-                    ],
-                    "replace": {
-                        "palette": [
-                            {
-                                "block": "minecraft:void_air"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "enabled": true,
-            "xAxis": {
-                "interval": 90,
-                "max": 360,
-                "min": 0
-            },
-            "yAxis": {
-                "interval": 90,
-                "max": 360,
-                "min": 0
-            },
-            "translate": {
-                "yRandom": 10,
-                "y": 2
-            }
-        }
-    ],
+    "caveBiomes": [],
+    "jigsawStructures": [],
+    "objects": [],
     "shoreBiomes": [
         "mushroom/shore/beach"
     ],
@@ -124,12 +70,7 @@
             "soundDistance": 3
         }
     ],
-    "entitySpawners": [
-        "mushroom/passive",
-        "mushroom/hostile",
-        "mushroom/cave",
-        "mushroom/water"
-    ],
+    "entitySpawners": [],
     "shoreHeightMin": 3.2,
     "shoreHeightMax": 6.2,
     "carving": {

@@ -16,20 +16,13 @@
     "seaBiomes": [
         "mountain/sea/river"
     ],
-    "entitySpawners": [
-        "tundra/passive",
-        "tundra/hostile",
-        "tundra/cave"
-    ],
+    "entitySpawners": [],
+    "jigsawStructures": [],
+    "caveBiomes": [],
     "shoreHeightMin": 2.2,
     "shoreHeightMax": 5.2,
     "carving": {
-        "ravines": [
-            {
-                "rarity": 25,
-                "ravine": "calcite/main"
-            }
-        ],
+        "ravines": [],
         "caves": []
     },
     "shoreHeightZoom": 1.14,
