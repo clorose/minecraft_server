@@ -147,68 +147,7 @@
                 "ravine": "red-sandstone/main"
             }
         ],
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "sandstone/main",
-                "rarity": 20,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "red-sandstone/main",
-                "rarity": 20,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "mixed-sandstone/main",
-                "rarity": 15,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "drip/main",
-                "rarity": 46,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
+        "caves": []
     },
     "shoreHeightMin": 3.2,
     "shoreHeightMax": 6.2,

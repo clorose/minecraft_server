@@ -130,32 +130,7 @@
                 "ravine": "rocky/main"
             }
         ],
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "drip/main",
-                "rarity": 30,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 15,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
+        "caves": []
     },
     "riverRarity": 1,
     "landBiomeZoom": 3.5,

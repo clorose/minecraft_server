@@ -133,20 +133,7 @@
     "shoreHeightMin": 3.2,
     "shoreHeightMax": 6.2,
     "carving": {
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
+        "caves": []
     },
     "shoreHeightZoom": 1.14,
     "loot": {

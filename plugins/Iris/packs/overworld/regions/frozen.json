@@ -118,44 +118,7 @@
                 "ravine": "ice/main"
             }
         ],
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "cavesv4/glacial/main",
-                "rarity": 20,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "VASCULAR"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "ice/main",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "VASCULAR"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
+        "caves": []
     },
     "shoreHeightZoom": 1.14,
     "riverThickness": 0.006,

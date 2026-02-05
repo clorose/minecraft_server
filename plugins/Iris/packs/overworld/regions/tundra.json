@@ -140,32 +140,7 @@
                 "ravine": "rocky/main"
             }
         ],
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "calcite/main",
-                "rarity": 20,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 10,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
+        "caves": []
     },
     "shoreHeightZoom": 1.14,
     "riverThickness": 0.025,

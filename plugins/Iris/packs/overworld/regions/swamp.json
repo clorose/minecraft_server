@@ -89,20 +89,7 @@
     "shoreHeightMin": 1.2,
     "shoreHeightMax": 3,
     "carving": {
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "swamp/main",
-                "rarity": 10,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
+        "caves": []
     },
     "shoreHeightZoom": 3.14,
     "blockDrops": [
