@@ -28,6 +28,7 @@ world/
 wild/
 world_nether/
 world_the_end/
+test*/
 logs/
 *.log
 crash-reports/

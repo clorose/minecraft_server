@@ -5,7 +5,43 @@
 - **월드 생성**: Iris 플러그인 (직접 빌드)
 - **패키지 명**: `io.clorose`
 
-## 현재 세션 진행 상황 (2026-02-05 완료)
+## 최신 세션 진행 상황 (2026-02-06 완료)
+
+### 월드 생성 및 트러블슈팅 ✓ 완료
+
+**작업 내용**:
+1. Git 커밋: 바이옴 파일 57개 수정 사항 커밋 (9090d9e)
+2. bukkit.yml 정리: test1~5 월드 설정 제거
+3. 테스트 월드 삭제: test1~5 폴더 삭제
+4. world 폴더 삭제 및 재생성
+
+**발생한 문제**:
+- 서버 크래시: `java.lang.RuntimeException: Iris failed to replace the levelStem`
+- Iris Unstable Mode 진입
+- 바이옴/Dimension Type 등록 실패
+
+**원인**:
+- JSON trailing comma 3개 발견
+  - temperate/sea/ocean-deep.json:88
+  - frozen/sea/frozen-river-ice.json:127
+  - frozen/sea/ocean.json:126
+
+**해결**:
+- trailing comma 제거
+- 서버 재시작
+- world 폴더 Iris로 정상 생성 확인
+
+**결과**: ✅ 성공
+- 서버 정상 시작 (Done preparing level "world" (4.731s))
+- world/iris/ 폴더 생성됨
+- world/mantle/ 폴더 생성됨
+- Iris Unstable Mode 없음
+
+**참고 문서**: troubleshooting/2026-02-06-iris-json-trailing-comma.md
+
+---
+
+## 이전 세션 진행 상황 (2026-02-05 완료)
 
 ### Iris 바이옴 파일 정리 작업 ✓ 완료
 

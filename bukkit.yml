@@ -44,5 +44,3 @@ aliases: now-in-commands.yml
 worlds:
   world:
     generator: Iris:overworld
-  test1:
-    generator: Iris:overworld
