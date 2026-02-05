@@ -66,14 +66,6 @@
                 "enabled": true
             },
             "place": [
-                "trees/oak/hoakgeneric3",
-                "trees/oak/hoakgeneric4",
-                "trees/oak/hoakgeneric5",
-                "trees/oak/hoakgeneric6",
-                "trees/oak/hoakgeneric7",
-                "trees/oak/hoakgeneric8",
-                "trees/oak/hoakgeneric9",
-                "trees/oak/hoakgeneric1",
                 "trees/oak/shoakgeneric3",
                 "trees/oak/shoakgeneric4",
                 "trees/oak/shoakgeneric5",
@@ -83,72 +75,6 @@
                 "trees/oak/shoakgeneric9",
                 "trees/oak/shoakgeneric1",
                 "trees/oak/shoakgeneric2"
-            ]
-        },
-        {
-            "chance": 1,
-            "mode": "PAINT",
-            "density": 2,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "edit": [
-                {
-                    "find": [
-                        {"block": "minecraft:birch_wood"},
-                        {"block": "minecraft:birch_log"}
-                    ],
-                    "replace": {"palette": [{"block": "minecraft:oak_wood"}]}
-                },
-                {
-                    "find": [{"block": "minecraft:birch_leaves"}],
-                    "replace": {"palette": [{"block": "minecraft:oak_leaves"}]}
-                }
-            ],
-            "place": [
-                "trees/birch/antioch3",
-                "trees/birch/antioch4",
-                "trees/birch/antioch5",
-                "trees/birch/antioch6",
-                "trees/birch/antioch7",
-                "trees/birch/antioch8",
-                "trees/birch/antioch9",
-                "trees/birch/antioch10",
-                "trees/birch/antioch11",
-                "trees/birch/antioch12",
-                "trees/birch/antioch13"
-            ],
-            "translate": {
-                "x": 0,
-                "y": -1,
-                "z": 0
-            }
-        },
-        {
-            "chance": 0.18,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "mode": "PAINT",
-            "place": [
-                "trees/oak/thoakgeneric1",
-                "trees/oak/thoakgeneric2",
-                "trees/oak/thoakgeneric3",
-                "trees/oak/thoakgeneric4",
-                "trees/oak/thoakgeneric8",
-                "trees/oak/thoakgeneric10"
             ]
         },
         {

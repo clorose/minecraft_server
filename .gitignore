@@ -1,0 +1,56 @@
+# Minecraft Server
+plugins/*
+!plugins/Iris/
+plugins/Iris/*
+!plugins/Iris/packs/
+*.jar
+
+# Backups and builds
+plugins-backup/
+iris-build/
+
+# Sensitive files
+server.properties
+ops.json
+banned-ips.json
+banned-players.json
+whitelist.json
+usercache.json
+.console_history
+
+# Gradle
+.gradle/
+build/
+gradle/wrapper/gradle-wrapper.jar
+
+# Server files (향후 서버 운영 시)
+world/
+wild/
+world_nether/
+world_the_end/
+logs/
+*.log
+crash-reports/
+cache/
+libraries/
+versions/
+
+# Plugin configs (선택적으로 해제 가능)
+# plugins/*/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node (프론트엔드 있을 경우)
+node_modules
+dist
+dist-ssr
+*.local

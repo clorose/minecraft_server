@@ -1,0 +1,4 @@
+name: soul-tax
+version: '1.0-SNAPSHOT'
+main: io.clorose.soulTax.SoulTax
+api-version: '1.21'

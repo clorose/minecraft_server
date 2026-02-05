@@ -11,20 +11,6 @@
         "category": "forest"
     }],
     "jigsawStructures": [],
-    "carving":{
-        "caves": [
-            {
-                "cave": "swamp/main",
-                "rarity": 80,
-                "breakSurface": true,
-                "caveStartHeight":{
-                    "max": 175,
-                    "min": 70
-
-                    }
-            }
-        ]
-    },
     "generators": [{
         "min": 4,
         "max": 10,
@@ -73,11 +59,6 @@
     "objects": [
         {
             "place": [
-                "trees/oak/hoakgeneric1",
-                "trees/oak/hoakgeneric2",
-                "trees/oak/hoakgeneric3",
-                "trees/oak/hoakgeneric4",
-                "trees/oak/hoakgeneric5",
                 "trees/oak/shoakgeneric1",
                 "trees/oak/shoakgeneric2",
                 "trees/oak/shoakgeneric3",

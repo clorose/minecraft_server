@@ -63,14 +63,6 @@
                 "enabled": true
             },
             "place": [
-                "trees/oak/hoakgeneric3",
-                "trees/oak/hoakgeneric4",
-                "trees/oak/hoakgeneric5",
-                "trees/oak/hoakgeneric6",
-                "trees/oak/hoakgeneric7",
-                "trees/oak/hoakgeneric8",
-                "trees/oak/hoakgeneric9",
-                "trees/oak/hoakgeneric1",
                 "trees/oak/shoakgeneric3",
                 "trees/oak/shoakgeneric4",
                 "trees/oak/shoakgeneric5",
@@ -80,58 +72,6 @@
                 "trees/oak/shoakgeneric9",
                 "trees/oak/shoakgeneric1",
                 "trees/oak/shoakgeneric2"
-            ]
-        },
-        {
-            "chance": 1,
-            "density": 2,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "trees/oak/antioch3",
-                "trees/oak/antioch4",
-                "trees/oak/antioch5",
-                "trees/oak/antioch6",
-                "trees/oak/antioch7",
-                "trees/oak/antioch8",
-                "trees/oak/antioch9",
-                "trees/oak/antioch10",
-                "trees/oak/antioch11",
-                "trees/oak/antioch12",
-                "trees/oak/antioch13"
-            ]
-        },
-        {
-            "chance": 0.9,
-            "density": 1,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": [
-                "trees/birch/antioch3",
-                "trees/birch/antioch4",
-                "trees/birch/antioch5",
-                "trees/birch/antioch6",
-                "trees/birch/antioch7",
-                "trees/birch/antioch8",
-                "trees/birch/antioch9",
-                "trees/birch/antioch10",
-                "trees/birch/antioch11",
-                "trees/birch/antioch12",
-                "trees/birch/antioch13"
             ]
         },
         {

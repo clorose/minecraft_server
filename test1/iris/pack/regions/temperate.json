@@ -1,0 +1,61 @@
+{
+    "name": "Temperate",
+    "color": "#9BEE61",
+    "rarity": 1,
+    "landBiomes": [
+        "temperate/plains",
+        "temperate/combo-forest",
+        "temperate/reaching-forest",
+        "temperate/wilds",
+        "temperate/cherry-blossom-forest",
+        "temperate/stranged-plains",
+        "temperate/lush-plains",
+        "mountain/plains",
+        "temperate/birch-thin",
+        "temperate/birch-forest",
+        "temperate/longtree-forest",
+        "temperate/oak-forest",
+        "temperate/osaka-violet-forest",
+        "temperate/osaka-red-forest",
+        "mountain/Cute_Cliffs",
+        "temperate/roughplains",
+        "temperate/calmplains",
+        "temperate/fancyplains",
+        "temperate/sakura-forest",
+        "temperate/oak-forest-flat",
+        "temperate/croak"
+    ],
+    "caveBiomes": [],
+    "jigsawStructures": [],
+    "objects": [],
+    "shoreBiomes": [
+        "temperate/shore/beach",
+        "temperate/shore/oak-beach"
+    ],
+    "seaBiomeZoom": 6,
+    "seaBiomes": [
+        "ocean/deep",
+        "ocean/dark-depth-ocean",
+        "ocean/rich-oceans"
+    ],
+    "entitySpawners": [],
+    "shoreBiomeZoom": 0.15,
+    "deposits": [],
+    "carving": {
+        "ravines": [],
+        "caves": []
+    },
+    "riverRarity": 1,
+    "landBiomeZoom": 3.5,
+    "shoreHeightMin": 1,
+    "shoreHeightMax": 5.2,
+    "shoreHeightZoom": 1.14,
+    "riverThickness": 0.025,
+    "loot": {
+        "mode": "FALLBACK",
+        "tables": [
+            "temperate/clutter",
+            "temperate/food"
+        ]
+    }
+}

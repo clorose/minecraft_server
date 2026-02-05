@@ -1,0 +1,4 @@
+name: longshot
+version: '1.0-SNAPSHOT'
+main: io.clorose.longshot.Longshot
+api-version: '1.21'

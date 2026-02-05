@@ -43,28 +43,6 @@
 
     "objects": [
         {
-            "chance": 0.002,
-            "edit": [{
-                "find": [{"block": "minecraft:glass"}],
-                "replace": {"palette": [{"block": "minecraft:void_air"}]}
-            }],
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "place": ["structures/cave2"],
-            "translate": {
-                "x": 0,
-                "y": -57,
-                "z": 0
-            }
-        },
-        {
             "chance": 0.01,
             "rotation": {
                 "yAxis": {
@@ -76,14 +54,6 @@
                 "enabled": true
             },
             "place": [
-                "trees/oak/hoakgeneric3",
-                "trees/oak/hoakgeneric4",
-                "trees/oak/hoakgeneric5",
-                "trees/oak/hoakgeneric6",
-                "trees/oak/hoakgeneric7",
-                "trees/oak/hoakgeneric8",
-                "trees/oak/hoakgeneric9",
-                "trees/oak/hoakgeneric1",
                 "trees/oak/shoakgeneric3",
                 "trees/oak/shoakgeneric4",
                 "trees/oak/shoakgeneric5",

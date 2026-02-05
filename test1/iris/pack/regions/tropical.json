@@ -1,0 +1,51 @@
+{
+    "name": "Tropical",
+    "color": "#54EA2C",
+    "rarity": 2,
+    "landBiomes": [
+        "tropical/rainforest",
+        "tropical/volcanic-plains",
+        "tropical/rainforest-hills",
+        "tropical/wilds",
+        "tropical/plains",
+        "tropical/bamboo-forest",
+        "tropical/rainforest-wicked",
+        "tropical/mountain",
+        "tropical/mountain-extreme",
+        "tropical/mountain-plains",
+        "tropical/plains-hills"
+    ],
+    "caveBiomes": [],
+    "jigsawStructures": [],
+    "objects": [],
+    "shoreBiomes": [
+        "tropical/island-beach",
+        "tropical/beach",
+        "tropical/beach-bamboo"
+    ],
+    "seaBiomeZoom": 4,
+    "seaBiomes": [
+        "tropical/submerged-volcanic",
+        "tropical/sea/ocean",
+        "ocean/dark-depth-ocean",
+        "ocean/rich-oceans"
+    ],
+    "carving": {
+        "ravines": [],
+        "caves": []
+    },
+    "deposits": [],
+    "entitySpawners": [],
+    "landBiomeZoom": 5.5,
+    "shoreHeightMin": 3.2,
+    "shoreHeightMax": 9.2,
+    "shoreHeightZoom": 2.14,
+    "loot": {
+        "mode": "FALLBACK",
+        "tables": [
+            "tropical/treasure",
+            "tropical/food",
+            "tropical/dungeon"
+        ]
+    }
+}

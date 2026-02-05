@@ -1,0 +1,68 @@
+{
+    "name": "Hot",
+    "color": "#D1CD44",
+    "rarity": 4,
+    "seaBiomeZoom": 3.5,
+    "landBiomes": [
+        "hot/desert-dunes",
+        "hot/small-valley",
+        "hot/desert-dunes-red",
+        "savanna/savanna",
+        "mesa/dark",
+        "savanna/plateau",
+        "savanna/forest",
+        "savanna/acacia-denmyre",
+        "mesa/plateau",
+        "mesa/valleys",
+        "mesa/plateau-high",
+        "mesa/valleys",
+        "mesa/mesa"
+    ],
+    "caveBiomes": [],
+    "jigsawStructures": [],
+    "objects": [],
+    "shoreBiomes": [
+        "hot/shore/beach"
+    ],
+    "seaBiomes": [
+        "hot/sea/ocean",
+        "ocean/rich-oceans"
+    ],
+    "entitySpawners": [],
+    "deposits": [],
+    "landBiomeZoom": 7,
+    "effects": [
+        {
+            "potionTicksMin": 87,
+            "potionEffect": "CONFUSION",
+            "chance": 1200,
+            "potionStrength": 0,
+            "potionTicksMax": 67,
+            "interval": 500
+        },
+        {
+            "particleAltX": 0.001,
+            "particleAltY": 0.00885,
+            "particleAltZ": 0.001,
+            "chance": 2,
+            "particleEffect": "CAMPFIRE_SIGNAL_SMOKE",
+            "particleOffset": 0,
+            "interval": 1350,
+            "particleCount": 0
+        }
+    ],
+    "carving": {
+        "ravines": [],
+        "caves": []
+    },
+    "shoreHeightMin": 3.2,
+    "shoreHeightMax": 6.2,
+    "shoreHeightZoom": 1.14,
+    "loot": {
+        "mode": "FALLBACK",
+        "tables": [
+            "hot/food",
+            "hot/treasure"
+        ]
+    }
+}
