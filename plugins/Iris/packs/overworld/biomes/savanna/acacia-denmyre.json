@@ -12,12 +12,7 @@
         "waterColor": "#33CB99",
         "downfallType": "none"
     }],
-      "jigsawStructures": [
-        {
-            "structure": "village-savanna",
-            "rarity": 1200
-        }
-    ],
+    "jigsawStructures": [],
     "generators": [{
         "min": 4,
         "max": 7,

@@ -13,12 +13,7 @@
         "grassColor": "#B39EC2",
         "fogColor": "#CACDFF"
     }],
-    "jigsawStructures": [
-        {
-            "structure": "mush-huts",
-            "rarity": 800
-        }
-    ],
+    "jigsawStructures": [],
     "generators": [{
         "min": 6,
         "max": 14,

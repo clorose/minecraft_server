@@ -13,16 +13,7 @@
         {"block": "minecraft:stone"},
         {"block": "minecraft:cobblestone"}
     ]},
-     "jigsawStructures": [
-        {
-            "structure": "pillager-outpost",
-            "rarity": 800
-        },
-        {
-            "structure": "village-plains",
-            "rarity": 1200
-        }
-    ],
+    "jigsawStructures": [],
     "objects": [{
         "place": [
             "trees/mixed/pollup1",
