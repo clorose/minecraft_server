@@ -83,18 +83,33 @@
     "objects": [{
         "mode": "PAINT",
         "place": [
-            "trees/willow/t1",
-            "trees/willow/t2",
-            "trees/willow/t3",
-            "trees/willow/t4",
-            "trees/willow/t5",
-            "trees/willow/t6",
-            "trees/willow/t7",
-            "trees/willow/t8",
-            "trees/mangrove/t1",
-            "trees/mangrove/t2",
-            "trees/mangrove/t3",
-            "trees/mangrove/t4"
+            "trees/darkoak/willowgeneric1",
+            "trees/darkoak/willowgeneric2",
+            "trees/darkoak/generic1",
+            "trees/darkoak/generic2",
+            "trees/mangrove/mangrove1",
+            "trees/mangrove/mangrove2",
+            "trees/mangrove/mangrove3",
+            "trees/mangrove/mangrove4",
+            "trees/mangrove/mangrove6"
+        ],
+        "edit": [
+            {
+                "find": [{"block": "minecraft:oak_log"}],
+                "replace": {"palette": [{"block": "minecraft:dark_oak_log"}]}
+            },
+            {
+                "find": [{"block": "minecraft:oak_wood"}],
+                "replace": {"palette": [{"block": "minecraft:dark_oak_wood"}]}
+            },
+            {
+                "find": [{"block": "minecraft:oak_fence"}],
+                "replace": {"palette": [{"block": "minecraft:dark_oak_fence"}]}
+            },
+            {
+                "find": [{"block": "minecraft:dark_oak_planks"}],
+                "replace": {"palette": [{"block": "minecraft:stripped_dark_oak_wood"}]}
+            }
         ],
         "chance": 0.5,
         "rotation": {

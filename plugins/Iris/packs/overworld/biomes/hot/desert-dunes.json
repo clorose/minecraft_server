@@ -1,90 +1,90 @@
 {
-    "name": "Hot Desert Dunes",
-    "color": "#B9B03D",
-    "rarity": 1,
-    "derivative": "DESERT",
-    "vanillaDerivative": "DESERT",
-    "generators": [
+  "name": "Hot Desert Dunes",
+  "color": "#B9B03D",
+  "rarity": 1,
+  "derivative": "DESERT",
+  "vanillaDerivative": "DESERT",
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 51,
+      "min": 28
+    }
+  ],
+  "jigsawStructures": [],
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 10,
+      "slopeCondition": {
+        "minimumSlope": 4.5,
+        "maximumSlope": 20
+      },
+      "palette": [
         {
-            "generator": "smooth-dunes",
-            "max": 51,
-            "min": 28
+          "block": "minecraft:terracotta"
         }
-    ],
-    "jigsawStructures": [],
-    "layers": [
+      ]
+    },
+    {
+      "minHeight": 5,
+      "maxHeight": 5,
+      "zoom": 0.7,
+      "palette": [
         {
-            "minHeight": 3,
-            "maxHeight": 10,
-            "slopeCondition": {
-                "minimumSlope": 4.5,
-                "maximumSlope": 20
-            },
-            "palette": [
-                {
-                    "block": "minecraft:terracotta"
-                }
-            ]
-        },
-        {
-            "minHeight": 5,
-            "maxHeight": 5,
-            "zoom": 0.7,
-            "palette": [
-                {
-                    "weight": 1,
-                    "block": "minecraft:sand"
-                }
-            ]
+          "weight": 1,
+          "block": "minecraft:sand"
         }
-    ],
-    "objects": [],
-    "decorators": [
+      ]
+    }
+  ],
+  "objects": [],
+  "decorators": [
+    {
+      "chance": 0.0005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
         {
-            "chance": 0.0005,
-            "variance": {
-                "style": "STATIC"
-            },
-            "stackMax": 5,
-            "style": {
-                "style": "STATIC"
-            },
-            "palette": [
-                {
-                    "block": "minecraft:cactus"
-                }
-            ],
-            "stackMin": 1
-        },
+          "block": "minecraft:cactus"
+        }
+      ],
+      "stackMin": 1
+    },
+    {
+      "chance": 0.0005,
+      "variance": {
+        "style": "STATIC"
+      },
+      "stackMax": 5,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
         {
-            "chance": 0.0005,
-            "variance": {
-                "style": "STATIC"
-            },
-            "stackMax": 5,
-            "style": {
-                "style": "STATIC"
-            },
-            "palette": [
-                {
-                    "block": "minecraft:cactus"
-                }
-            ],
-            "topPalette": [
-                {
-                    "block": "minecraft:cactus_flower"
-                }
-            ],
-            "stackMin": 1
-        },
+          "block": "minecraft:cactus"
+        }
+      ],
+      "topPalette": [
         {
-            "chance": 0.005,
-            "palette": [
-                {
-                    "block": "minecraft:dead_bush"
-                }
-            ]
-        },
-        "snippet/decorator/dry_grass"
-    ]
+          "block": "minecraft:cactus_flower"
+        }
+      ],
+      "stackMin": 1
+    },
+    {
+      "chance": 0.005,
+      "palette": [
+        {
+          "block": "minecraft:dead_bush"
+        }
+      ]
+    },
+    "snippet/decorator/dry_grass"
+  ]
 }

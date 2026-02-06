@@ -79,22 +79,7 @@
             "trees/mangrove/mangrove2",
             "trees/mangrove/mangrove3",
             "trees/mangrove/mangrove4",
-            "trees/mangrove/mangrove5",
-            "trees/mangrove/mangrove6",
-            "trees/mangrove/mangrove7",
-            "trees/mangrove/mangrove8",
-            "trees/mangrove/mangrove9",
-            "trees/mangrove/mangrove10",
-            "trees/mangrove/mangrove11",
-            "trees/mangrove/mangrove12",
-            "trees/mangrove/mangrove13",
-            "trees/mangrove/mangrove14",
-            "trees/mangrove/mangrove15",
-            "trees/mangrove/mangrove16",
-            "trees/mangrove/mangrove17",
-            "trees/mangrove/mangrove18",
-            "trees/mangrove/mangrove19",
-            "trees/mangrove/mangrove20"
+            "trees/mangrove/mangrove6"
         ],
         "rotation": {
             "enabled": true,

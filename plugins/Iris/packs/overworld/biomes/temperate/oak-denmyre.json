@@ -45,24 +45,6 @@
         {
             "chance": 0.2,
             "density": 2,
-            "edit": [
-                {
-                    "find": [{"block": "minecraft:acacia_planks"}],
-                    "replace": {"palette": [{"block": "minecraft:stripped_oak_wood"}]}
-                },
-                {
-                    "find": [{"block": "minecraft:acacia_leaves"}],
-                    "replace": {"palette": [{"block": "minecraft:oak_leaves"}]}
-                },
-                {
-                    "find": [{"block": "minecraft:acacia_fence"}],
-                    "replace": {"palette": [{"block": "minecraft:oak_fence"}]}
-                },
-                {
-                    "find": [{"block": "minecraft:acacia_wood"}],
-                    "replace": {"palette": [{"block": "minecraft:oak_wood"}]}
-                }
-            ],
             "rotation": {
                 "yAxis": {
                     "min": 0,
@@ -73,13 +55,12 @@
                 "enabled": true
             },
             "place": [
-                "trees/acacia/denmyre1",
-                "trees/acacia/denmyre2",
-                "trees/acacia/denmyre3",
-                "trees/acacia/denmyre4",
-                "trees/acacia/denmyre5",
-                "trees/acacia/denmyre6",
-                "trees/acacia/denmyre7"
+                "trees/acacia/vexed1",
+                "trees/acacia/vexed2",
+                "trees/acacia/vexed3",
+                "trees/acacia/savannaF4",
+                "trees/acacia/savannaF5",
+                "trees/acacia/savannaF6"
             ],
             "translate": {
                 "x": 0,

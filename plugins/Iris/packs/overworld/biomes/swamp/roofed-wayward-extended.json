@@ -109,18 +109,14 @@
                 "enabled": true
             },
             "place": [
-                "trees/oak/mroofed1",
-                "trees/oak/mroofed2",
-                "trees/oak/mroofed3",
-                "trees/oak/mroofed4",
-                "trees/oak/mroofed5",
-                "trees/oak/mroofed6",
-                "trees/oak/mroofed7",
-                "trees/oak/mroofed8",
-                "trees/oak/mroofed9",
-                "trees/oak/mroofed10",
-                "trees/oak/mroofed11",
-                "trees/oak/mroofed12"
+                "trees/oak/croak1",
+                "trees/oak/croak2",
+                "trees/oak/croak3",
+                "trees/oak/croak4",
+                "trees/oak/croak5",
+                "trees/oak/pollup1",
+                "trees/oak/pollup2",
+                "trees/oak/pollup3"
             ]
         },
         {

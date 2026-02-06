@@ -84,16 +84,14 @@
     "objects": [
         {
             "place": [
-                "trees/mixed/dotree1",
-                "trees/mixed/dotree2",
-                "trees/mixed/dotree3",
-                "trees/mixed/dotree4",
-                "trees/mixed/dotree5",
-                "trees/mixed/dotree6",
-                "trees/mixed/dotree7",
-                "trees/mixed/dotree8",
-                "trees/mixed/dotree9",
-                "trees/mixed/dotree10"
+                "trees/mixed/pollup1",
+                "trees/mixed/pollup2",
+                "trees/mixed/pollup3",
+                "trees/mixed/pollup4",
+                "trees/mixed/pollup5",
+                "trees/mixed/pollup6",
+                "trees/mixed/pollup7",
+                "trees/mixed/pollup8"
             ],
             "chance": 0.65,
             "rotation": {

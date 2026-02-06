@@ -1,0 +1,4 @@
+name: mine-insurance
+version: '1.0-SNAPSHOT'
+main: io.clorose.mineInsurance.MineInsurance
+api-version: '1.21'

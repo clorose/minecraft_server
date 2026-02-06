@@ -1,25 +1,22 @@
 {
-    "name": "test-dev",
+  "name": "test-dev",
 
-    "layers": [
+  "layers": [
+    {
+      "palette": [
         {
-            "palette": [
-                {
-                    "block": "minecraft:grass_block"
-                }
-            ]
-
+          "block": "minecraft:grass_block"
         }
-    ],
-    "decorators": [
-        "snippet/decorator/bush"
-    ],
+      ]
+    }
+  ],
+  "decorators": ["snippet/decorator/bush"],
 
-    "generators": [
-        {
-            "generator": "flat",
-            "max": 1,
-            "min": 1
-        }
-    ]
+  "generators": [
+    {
+      "generator": "flat",
+      "max": 1,
+      "min": 1
+    }
+  ]
 }

@@ -1,0 +1,10 @@
+name: wolf-of-minestreet
+version: '1.0-SNAPSHOT'
+main: io.clorose.wolfOfMinestreet.WolfOfMinestreet
+api-version: '1.21'
+
+commands:
+  wom:
+    description: Wolf of Minestreet 주식/코인 거래소
+    usage: /wom <list|buy|sell|info|portfolio>
+    aliases: [wolfofminestreet, stock]

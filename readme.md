@@ -89,12 +89,13 @@
 | MobFarmManager   | 3.0.4.5 | 몹팜 제한   |
 
 ### 자체 개발 (clorose)
-| 플러그인     | 패키지                   | 용도                                    |
-| ------------ | ------------------------ | --------------------------------------- |
-| clorose-core | `io.clorose`             | 공통 API/유틸                           |
-| longshot     | `io.clorose.longshot`    | 경마 (NPC 말 + 스킬 + 베팅)             |
-| mine-atelier | `io.clorose.mineatelier` | 장비 종합 (수리/강화/룬/분해/귀속/세트) |
-| soul-tax     | `io.clorose.soultax`     | 사망 패널티                             |
+| 플러그인          | 패키지                        | 용도                                    |
+| ----------------- | ----------------------------- | --------------------------------------- |
+| clorose-core      | `io.clorose`                  | 공통 API/유틸                           |
+| longshot          | `io.clorose.longshot`         | 경마 (NPC 말 + 스킬 + 베팅)             |
+| mine-atelier      | `io.clorose.mineatelier`      | 장비 종합 (수리/강화/룬/분해/귀속/세트) |
+| mine-insurance    | `io.clorose.mineinsurance`    | 사망 보험 (등급별 아이템 보호)          |
+| wolf-of-minestreet| `io.clorose.wolfofminestreet` | 주식/코인 거래소                        |
 
 ---
 
@@ -137,15 +138,19 @@
 
 ```
 minecraft_server/
-├── plugins/              # 플러그인 JAR 파일 (26개)
-├── clorose/              # 자체 개발 플러그인 소스
-│   ├── clorose-core/     # 공통 API
-│   ├── longshot/         # 경마 시스템
-│   ├── mine-atelier/     # 장비 시스템
-│   └── soul-tax/         # 사망 패널티
+├── plugins/                # 플러그인 JAR 파일 (26개)
+├── clorose/                # 자체 개발 플러그인 소스
+│   ├── clorose-core/       # 공통 API
+│   ├── longshot/           # 경마 시스템
+│   ├── mine-atelier/       # 장비 시스템
+│   ├── mine-insurance/     # 사망 보험
+│   └── wolf-of-minestreet/ # 주식/코인 거래소
 ├── docs/
-│   └── economy-guide.md  # 경제 시스템 상세 가이드
-└── README.md             # 이 파일
+│   └── economy-guide.md    # 경제 시스템 상세 가이드
+├── troubleshooting/        # 트러블슈팅 로그
+│   └── README.md           # 트러블슈팅 목록
+├── compact.md              # 작업 진행 상황 기록
+└── README.md               # 이 파일
 ```
 
 ---
@@ -170,7 +175,8 @@ minecraft_server/
 - [ ] clorose-core 개발
 - [ ] longshot (경마) 개발
 - [ ] mine-atelier (장비) 개발
-- [ ] soul-tax (사망 패널티) 개발
+- [ ] mine-insurance (사망 보험) 개발
+- [ ] wolf-of-minestreet (주식/코인) 개발
 
 ---
 

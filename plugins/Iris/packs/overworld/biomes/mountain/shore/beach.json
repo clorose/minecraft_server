@@ -1,51 +1,51 @@
 {
-    "name": "Mountain Beach",
-    "color": "#365B8F",
-    "rarity": 1,
-    "derivative": "OLD_GROWTH_SPRUCE_TAIGA",
-    "vanillaDerivative": "OLD_GROWTH_SPRUCE_TAIGA",
-    "generators": [
-        {
-            "min": 0,
-            "max": 2,
-            "generator": "plain"
-        }
-    ],
-    "layers": [
-        {
-            "minHeight": 1,
-            "maxHeight": 1,
-            "palette": [
-                {
-                    "block": "minecraft:stone"
-                },
-                {
-                    "block": "minecraft:andesite"
-                }
-            ]
-        },
-        {
-            "minHeight": 1,
-            "maxHeight": 6,
-            "palette": [
-                {
-                    "block": "minecraft:stone"
-                }
-            ]
-        }
-    ],
-    "objects": [],
-    "slab": {
-        "style": {
-            "style": "STATIC"
-        },
-        "palette": [
-            {
-                "block": "minecraft:stone_slab"
-            },
-            {
-                "block": "minecraft:air"
-            }
-        ]
+  "name": "Mountain Beach",
+  "color": "#365B8F",
+  "rarity": 1,
+  "derivative": "OLD_GROWTH_SPRUCE_TAIGA",
+  "vanillaDerivative": "OLD_GROWTH_SPRUCE_TAIGA",
+  "generators": [
+    {
+      "min": 0,
+      "max": 2,
+      "generator": "plain"
     }
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        },
+        {
+          "block": "minecraft:andesite"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [],
+  "slab": {
+    "style": {
+      "style": "STATIC"
+    },
+    "palette": [
+      {
+        "block": "minecraft:stone_slab"
+      },
+      {
+        "block": "minecraft:air"
+      }
+    ]
+  }
 }

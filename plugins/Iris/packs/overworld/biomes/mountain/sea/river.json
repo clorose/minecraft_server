@@ -1,52 +1,52 @@
 {
-    "name": "Mountain River",
-    "color": "#3983DF",
-    "derivative": "RIVER",
-    "vanillaDerivative": "RIVER",
-    "generators": [
-        {
-            "min": -32,
-            "max": -10,
-            "generator": "mountain"
+  "name": "Mountain River",
+  "color": "#3983DF",
+  "derivative": "RIVER",
+  "vanillaDerivative": "RIVER",
+  "generators": [
+    {
+      "min": -32,
+      "max": -10,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "style": {
+        "style": "IRIS_DOUBLE",
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 30
         }
-    ],
-    "layers": [
+      },
+      "zoom": 0.7,
+      "palette": [
         {
-            "minHeight": 2,
-            "maxHeight": 3,
-            "style": {
-                "style": "IRIS_DOUBLE",
-                "fracture": {
-                    "style": "STATIC",
-                    "multiplier": 30
-                }
-            },
-            "zoom": 0.7,
-            "palette": [
-                {
-                    "block": "minecraft:cobblestone",
-                    "weight": 3
-                },
-                {
-                    "block": "minecraft:clay",
-                    "weight": 1
-                },
-                {
-                    "block": "minecraft:gravel",
-                    "weight": 8
-                }
-            ]
+          "block": "minecraft:cobblestone",
+          "weight": 3
         },
         {
-            "palette": [
-                {
-                    "block": "minecraft:cobblestone"
-                },
-                {
-                    "block": "minecraft:stone"
-                }
-            ]
+          "block": "minecraft:clay",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:gravel",
+          "weight": 8
         }
-    ],
-    "objects": [],
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:cobblestone"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": []
 }
