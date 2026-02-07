@@ -58,7 +58,7 @@
             "density": 5,
             "underwater": false,
             "translate": {"y": 1}
-        },
+        }
     ],
     "decorators": [
         {

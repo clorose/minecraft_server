@@ -2,6 +2,7 @@ name: wolf-of-minestreet
 version: '1.0-SNAPSHOT'
 main: io.clorose.wolfOfMinestreet.WolfOfMinestreet
 api-version: '1.21'
+depend: [Vault]
 
 commands:
   wom:

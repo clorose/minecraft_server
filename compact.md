@@ -5,7 +5,81 @@
 - **월드 생성**: Iris 플러그인 (직접 빌드)
 - **패키지 명**: `io.clorose`
 
-## 최신 세션 진행 상황 (2026-02-06 완료)
+## 최신 세션 진행 상황 (2026-02-07 10:00 진행중)
+
+### 서버 테스트 및 JSON 에러 수정 🔄 진행중
+
+**작업 목표**:
+- 새 월드 생성하여 Iris 바이옴 수정 사항 테스트
+- 서버 정상 시작 확인
+
+**작업 내용**:
+1. 월드 폴더 삭제 (world, world_nether, world_the_end)
+2. 서버 백그라운드 실행: `nohup ./start.sh > server.log 2>&1 &`
+
+**발생한 문제**:
+- 서버 크래시: `java.lang.RuntimeException: Iris failed to replace the levelStem`
+- 에러 메시지: `Missing element ResourceKey[minecraft:dimension_type / iris:aiamgajach8.]`
+
+**트러블슈팅 과정**:
+1. troubleshooting/2026-02-06-iris-json-trailing-comma.md 확인
+   - 이전에 동일한 에러 발생 경험 있음
+   - 원인: JSON trailing comma
+
+2. JSON 에러 수정 (5개 파일):
+   - `swamp/sea/ocean.json`: line 61 trailing comma 제거
+   - `temperate/meadows.json`: lines 124, 128 missing commas 추가
+   - `temperate/reaching-forest-violet.json`: line 111 trailing comma 제거
+   - `temperate/reaching-forest.json`:
+     - lines 89, 91, 123 missing commas 추가
+     - lines 132, 136, 140, 147, 154 missing commas 추가
+   - `temperate/stranged-plains.json`:
+     - lines 72, 100, 106, 110, 117, 123, 128, 135 missing commas 추가
+
+3. 삭제된 폴더 Git에서 복구 (커밋 154c7d0):
+   - `plugins/Iris/packs/overworld/biomes/carving/`: 동굴 바이옴 정의 파일
+   - `plugins/Iris/packs/overworld/biomes/terralost/WIP/`: 74개 WIP 바이옴 파일
+
+4. JSON 검증:
+   - 모든 수정된 파일 Python json.tool로 검증 완료
+   - trailing comma 에러 모두 수정 확인
+
+**해결 과정**:
+1. 에러 원인 발견: **temperate/*.bak 파일** (3개)
+   - meadows.json.bak, reaching-forest.json.bak, stranged-plains.json.bak
+   - 모두 invalid JSON이었으나 Iris가 로드 시도
+   - .bak 파일 삭제 후 크래시 → Unstable Mode로 변경
+
+2. 추가 조치:
+   - Iris 캐시 삭제 (`plugins/Iris/cache/*`)
+   - 월드 폴더 삭제 및 재생성
+   - 여러 차례 서버 재시작 시도
+
+**현재 상태**: ⚠️  부분 해결
+- ✅ .bak 파일 제거로 즉시 크래시는 해결
+- ❌ 여전히 Iris Unstable Mode 진입
+- ❌ "Required Iris dimension types were not loaded" 에러 지속
+- ❌ "Custom Biomes: 0" - Iris가 custom biomes 인식 못함
+- ❌ "The Pack overworld is INCAPABLE of generating custom biomes"
+
+**근본 원인 분석**:
+- 188개 바이옴 파일에서 `customDerivitives` 사용
+- Iris가 customDerivitives 처리하려면 추가 설정/데이터팩 필요할 수 있음
+- dimension_type 등록 자체가 실패하고 있음
+
+**다음 조치 필요**:
+- Iris custom biomes 사용 방법 확인
+- 데이터팩 필요 여부 확인
+- customDerivitives 제거 고려 (하지만 188개 파일...)
+- Iris Discord/지원 포럼 문의 고려
+
+**참고**:
+- 이전 트러블슈팅(2026-02-06)에서는 JSON 수정만으로 해결
+- 이번에는 .bak 파일 문제 + customDerivitives 문제 복합적
+
+---
+
+## 이전 세션 진행 상황 (2026-02-06 16:30 완료)
 
 ### 월드 생성 및 트러블슈팅 ✓ 완료
 
@@ -213,9 +287,45 @@
 - 모든 unchoppable 나무 교체 완료
 - 나무 타입 일관성 유지 (jungle→jungle, mixed→mixed, spruce→spruce)
 
+### Git 커밋 완료 ✓
+
+**커밋 1 (154c7d0)**:
+- Tropical + Tundra 나무 교체 (12개 파일)
+- tree.md, compact.md 업데이트
+- +1940/-1626 줄
+
+**커밋 2 (15b9386)**:
+- 전체 Iris 바이옴 정리 (316개 파일)
+- 동굴/광석/구조물 제거
+- Unchoppable 나무 전체 교체
+- soul-tax → mine-insurance 이름 변경
+- wolf-of-minestreet 추가
+- +32408/-37255 줄
+
+### 플러그인 한국어 번역 상태 확인 ✓
+
+**조사 결과 (2026-02-06 16:40)**:
+- **번역 완료**: 7개 플러그인
+  - ItemsAdder (ko.yml)
+  - AdvancedEnchantments (ko.yml)
+  - Lands (ko-KR.yml 3개 파일)
+  - Jobs (messages_ko.yml, 28KB)
+  - ShopGUIPlus (lang.yml)
+  - BattlePass (lang.yml)
+  - RealisticSeasons (lang.yml)
+
+- **번역 필요**: 1개
+  - AdvancedCrates (messages.yml 영어)
+
+- **번역 불필요**: 22개 (시스템/개발용 플러그인)
+  - CMI, LuckPerms, PlaceholderAPI, ProtocolLib, Vault, WorldEdit 등
+
+**결론**: 주요 플레이어용 플러그인은 대부분 한국어 완료 ✅
+
 **다음 작업**:
-- Git 커밋 (24개 파일 수정)
-- 플러그인 config 설정 (26개 플러그인 한국어 번역)
+- AdvancedCrates 한국어 번역 (나중에)
+- wolf-of-minestreet 개발 계속 (Vault 연동, 가격 변동, 데이터 저장)
+- 서버 테스트 (새 월드 생성, Iris 바이옴 확인)
 
 ---
 

@@ -66,10 +66,27 @@ class WomCommand(private val plugin: WolfOfMinestreet) : CommandExecutor, TabCom
         }
 
         val totalCost = stock.currentPrice * amount
+        val economy = plugin.economy
 
-        // TODO: Vault 연동하여 실제 돈 차감
-        player.sendMessage("§a매수 완료: ${stock.name} ${amount}주 (${String.format("%.2f", totalCost)}원)")
+        if (economy == null) {
+            player.sendMessage("§c경제 시스템을 사용할 수 없습니다.")
+            return
+        }
+
+        // 잔액 확인
+        if (economy.getBalance(player) < totalCost) {
+            player.sendMessage("§c돈이 부족합니다. 필요: ${String.format("%.2f", totalCost)}원, 보유: ${String.format("%.2f", economy.getBalance(player))}원")
+            return
+        }
+
+        // 돈 차감
+        economy.withdrawPlayer(player, totalCost)
+
+        // 주식 추가
         plugin.portfolioManager.buyStock(player.uniqueId, stock.id, amount)
+
+        player.sendMessage("§a매수 완료: ${stock.name} ${amount}주 (${String.format("%.2f", totalCost)}원)")
+        player.sendMessage("§7잔액: §f${String.format("%.2f", economy.getBalance(player))}원")
     }
 
     private fun handleSell(player: Player, args: Array<out String>) {
@@ -92,6 +109,14 @@ class WomCommand(private val plugin: WolfOfMinestreet) : CommandExecutor, TabCom
             return
         }
 
+        val economy = plugin.economy
+
+        if (economy == null) {
+            player.sendMessage("§c경제 시스템을 사용할 수 없습니다.")
+            return
+        }
+
+        // 보유 수량 확인 및 주식 제거
         val success = plugin.portfolioManager.sellStock(player.uniqueId, stock.id, amount)
         if (!success) {
             player.sendMessage("§c보유 수량이 부족합니다.")
@@ -100,8 +125,11 @@ class WomCommand(private val plugin: WolfOfMinestreet) : CommandExecutor, TabCom
 
         val totalRevenue = stock.currentPrice * amount
 
-        // TODO: Vault 연동하여 실제 돈 지급
+        // 돈 지급
+        economy.depositPlayer(player, totalRevenue)
+
         player.sendMessage("§a매도 완료: ${stock.name} ${amount}주 (${String.format("%.2f", totalRevenue)}원)")
+        player.sendMessage("§7잔액: §f${String.format("%.2f", economy.getBalance(player))}원")
     }
 
     private fun handleInfo(player: Player, args: Array<out String>) {
