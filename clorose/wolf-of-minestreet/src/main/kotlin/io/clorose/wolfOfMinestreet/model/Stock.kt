@@ -8,5 +8,11 @@ data class Stock(
     val symbol: String,
     var currentPrice: Double,
     val basePrice: Double,
-    var totalVolume: Long = 0
-)
+    val category: String = "기타",
+    val volatility: Double = 0.05,
+    var totalVolume: Long = 0,
+    val grade: AssetGrade = AssetGrade.GROWTH,
+    val totalShares: Long = 10_000
+) {
+    val marketCap: Double get() = currentPrice * totalShares
+}

@@ -1,0 +1,36 @@
+# Wolf of Minestreet 종목 설정
+# 새 종목 추가 시 아래 형식으로 추가하세요.
+#
+# stocks:
+#   종목id:
+#     name: "회사명"
+#     symbol: "티커 (대문자)"
+#     basePrice: 기준가
+#     category: "산업 분류"
+#     volatility: 변동폭 (0.0~1.0, 낮을수록 안정적)
+
+stocks:
+  diamond:
+    name: "다이아몬드"
+    symbol: "DIA"
+    basePrice: 100.0
+    category: "광업"
+    volatility: 0.03
+  emerald:
+    name: "에메랄드"
+    symbol: "EME"
+    basePrice: 50.0
+    category: "광업"
+    volatility: 0.05
+  gold:
+    name: "금"
+    symbol: "GOLD"
+    basePrice: 30.0
+    category: "광업"
+    volatility: 0.04
+  iron:
+    name: "철"
+    symbol: "IRON"
+    basePrice: 10.0
+    category: "광업"
+    volatility: 0.06
