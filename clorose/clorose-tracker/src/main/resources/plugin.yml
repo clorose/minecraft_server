@@ -1,0 +1,8 @@
+name: clorose-tracker
+version: '${version}'
+main: io.clorose.cloroseTracker.CloroseTracker
+api-version: '1.21'
+depend:
+  - Vault
+softdepend:
+  - ShopGUIPlus
